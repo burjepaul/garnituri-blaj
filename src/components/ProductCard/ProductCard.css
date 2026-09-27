@@ -1,0 +1,336 @@
+/* ========================================
+   PRODUCT CARD
+======================================== */
+
+.product-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e6e8;
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  color: inherit;
+  text-decoration: none;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.045);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+
+/* ========================================
+   HOVER
+======================================== */
+
+.product-card:hover {
+  transform: translateY(-5px);
+
+  border-color: #08702f;
+
+  box-shadow:
+    0 14px 32px rgba(0, 0, 0, 0.10);
+}
+
+
+/* ========================================
+   KEYBOARD FOCUS
+======================================== */
+
+.product-card:focus-visible {
+  outline: 3px solid rgba(8, 112, 47, 0.25);
+  outline-offset: 3px;
+}
+
+
+/* ========================================
+   IMAGE
+======================================== */
+
+.product-image-container {
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 1.5 / 1;
+
+  overflow: hidden;
+
+  background: #f3f5f5;
+}
+
+
+.product-image {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.65s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+
+.product-card:hover .product-image {
+  transform: scale(1.045);
+}
+
+
+/* ========================================
+   DISCOUNT BADGE
+======================================== */
+
+.discount-badge {
+  position: absolute;
+
+  top: 14px;
+  right: 14px;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #d62828;
+
+  color: #ffffff;
+
+  border-radius: 50%;
+
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.18);
+
+  z-index: 3;
+}
+
+
+.discount-badge span {
+  font-size: 22px;
+  line-height: 20px;
+
+  font-weight: 700;
+}
+
+
+.discount-badge small {
+  margin-top: 2px;
+
+  font-size: 7px;
+  font-weight: 700;
+
+  letter-spacing: 0.8px;
+}
+
+
+/* ========================================
+   CONTENT
+======================================== */
+
+.product-card-content {
+  padding: 21px 21px 20px;
+
+  background: #ffffff;
+}
+
+
+/* ========================================
+   TITLE
+======================================== */
+
+.product-title {
+  margin: 0;
+
+  color: #172024;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  line-height: 1.35;
+
+  letter-spacing: 0.35px;
+
+  text-transform: uppercase;
+}
+
+
+/* ========================================
+   DESCRIPTION
+======================================== */
+
+.product-description {
+  margin: 9px 0 0;
+
+  max-width: 95%;
+
+  color: #687278;
+
+  font-size: 13px;
+  font-weight: 400;
+
+  line-height: 1.6;
+
+  letter-spacing: 0.05px;
+}
+
+
+/* ========================================
+   DETAILS BUTTON
+======================================== */
+
+.product-details-button {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 19px;
+
+  padding: 11px 14px;
+
+  border: 1px solid #08702f;
+  border-radius: 6px;
+
+  background: #08702f;
+
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  line-height: 1;
+
+  letter-spacing: 0.25px;
+
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+/* ========================================
+   ARROW
+======================================== */
+
+.product-details-button .arrow {
+  font-size: 18px;
+  font-weight: 400;
+
+  line-height: 1;
+
+  transition:
+    transform 0.25s ease;
+}
+
+
+/* ========================================
+   BUTTON HOVER
+======================================== */
+
+.product-card:hover .product-details-button {
+  background: #075c27;
+
+  border-color: #075c27;
+
+  box-shadow:
+    0 5px 14px rgba(8, 112, 47, 0.18);
+}
+
+
+.product-card:hover .product-details-button .arrow {
+  transform: translateX(5px);
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 600px) {
+
+  .product-card {
+    border-radius: 8px;
+  }
+
+
+  .product-card:hover {
+    transform: translateY(-2px);
+  }
+
+
+  .product-card-content {
+    padding: 17px 15px 16px;
+  }
+
+
+  .product-title {
+    font-size: 13px;
+
+    line-height: 1.4;
+
+    letter-spacing: 0.25px;
+  }
+
+
+  .product-description {
+    margin-top: 7px;
+
+    max-width: 100%;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+  }
+
+
+  .product-details-button {
+    margin-top: 15px;
+
+    padding: 10px 12px;
+
+    font-size: 11px;
+
+    border-radius: 5px;
+  }
+
+
+  .product-details-button .arrow {
+    font-size: 16px;
+  }
+
+
+  .discount-badge {
+    width: 44px;
+    height: 44px;
+
+    top: 10px;
+    right: 10px;
+  }
+
+
+  .discount-badge span {
+    font-size: 19px;
+  }
+
+
+  .discount-badge small {
+    font-size: 6px;
+  }
+}
