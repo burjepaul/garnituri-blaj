@@ -41,7 +41,7 @@ function ProductDetails() {
       <div className="product-breadcrumb">
         <Link to="/">Acasă</Link>
         <span>/</span>
-        <Link to="/produse">Produse</Link>
+        <Link to="/products">Produse</Link>
         <span>/</span>
         <span>{product.title}</span>
       </div>

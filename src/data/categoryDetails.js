@@ -75,8 +75,7 @@ const categoryDetails = {
         ],
       ],
     },
-  },
-
+},
 2: {
   intro:
     "Etanșări pe arbore pentru aplicații de rotație și translație, disponibile într-o gamă variată de profile, materiale și configurații pentru utilizări industriale.",
@@ -241,24 +240,16 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
     "Garnituri și seturi de inele din grafit.",
 
   description: `Garnituri din grafit (UNITHERM) sunt inele din grafit flexibil pentru etanșare la axele precum și carcasele ventilelor și armăturilor.`,
-  applications: [
+  advantages: [
     "Rezistente la temperaturi și presiuni înalte",
     "Permanent elastice",
     "Fără întreținere la expoatare",
     "Funcționare la ciclu cald-rece",
     "Rezistență chimică excelentă",
   ],
-  advantages: [
-    "Gamă variată de profile constructive",
-    "Disponibilitate în materiale NBR, Viton, PTFE și poliuretan",
-    "Soluții pentru mișcare de rotație și translație",
-    "Rezistență la temperaturi ridicate",
-    "Variante pentru presiuni de lucru ridicate",
-    "Viteze de lucru adaptate aplicațiilor industriale",
-  ],
   images: [
       {
-        src: "/images/products/uniflon.jpg",
+        src: "/images/products/garnituri-si-seturi-schita.jpg",
         alt: "Schita garnitura"
       },
       {
@@ -277,39 +268,733 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
 
   table: {
     columns: [
-      "Tip șnur",
-      "Presiune",
-      "Temperatura",
-      "Ph",
+      "",
+      "",
+      "",
+      "",
     ],
 
     rows: [
       [
-        "UNIFLON fibre aramidice teflonate cu lubrifiant",
-        "25bar (20m/s) 80bar (2m/s) 100bar(1,5m/s)",
-        "-100°C ... +260°C",
-        "2-12",
+        "UNITHERM 3004",
+        "Se compune din grafit pur expandat. Prin comprimare parțială într-o matriță fără lianți rezultă inele flexibile de etanșare, gata pentru montare.",
+        "Este o posibilitate sigură de etanșare la aproape toate mediile cu temperaturi de la –200°C până la +700°C ( 3000°C în mediu inert ) ca și presiuni maximale până la 1000 bar între inelele de cameră (set de inele tip 3300).",
+        "Își menține proprietățile sale fizice și la condiții extreme de exploatare, ca urmare viabilitatea etanșărilor poate să corespundă cu aceea a ventilelor.",
       ],
 
       [
-        "VALVOCHEM 100% PTFE/ teflon",
-        "35bar (5m/s) 500bar(2m/s) 250bar(1m/s)",
-        "-200°C ... +280°C",
-        "0-14",
+        "Rezistență chimică",
+        "Apă fierbinte, aburi până la 700°C",
+        "Uleiuri, termouleiuri, grăsimi, acizi (excepție:acid azotic, oleum) și baze ",
+        "Oxigen și hidrogen lichid, amoniac, freon, gaze, solvenți, coloranți",
       ],
 
       [
-        "Superflon PTFE/teflon cu grafit încorporat",
-        "30bar (25m/s) 250bar(2m/s) 100bar(2m/s)",
-        "-200°C ... +280°C",
-        "0-14",
+        "Program de livrare ",
+        "Inele prepresate:  închise, debitate sau în set",
+        "Secțiuni: patrat, dreptunghiular,triunghiular, profilat special \ndimensiuni:  ø8mm până la ca.ø800mm",
+        "Densitate: 1,2 - 1,9g/cm³ (1,4 g/cm³ standard) \npuritate:       98% standard / 99,85% nuclear",
       ],
 
       [
-        "UNITHERM Grafit expandat împletit",
-        "30bar (20m/s) 100bar(2m/s) 250bar(1,5m/s)",
-        `-200°C ... +450°C" (la aburi 650°C)`,
-        "0-14",
+        "UNITHERM 3004-B (executare specială) ",
+        "Este o bandă flexibilă din grafit pur pt. întreținere.",
+        "Puritate:   99,8%; densitate:  1,1g/cm³ \nconținut de clorură liberă: <10 ppm",
+        "Grosime:   0,4mm \nlățime:      ¼“, ½“, 10,15,20,25mm",
+      ],
+    ],
+  },
+},
+5: {
+  description: "Garnituri plate din grafit rezistente la temperaturi mari și presiune înaltă pentru etanșarea suprafețelor plane la îmbinări cu flanșe",
+  applications: [
+    "Flanșe",
+    "Armături",
+    "Pompe",
+    "Cazane",
+    "Conducte",
+    "Țevi",
+  ],
+    advantages: [
+    "Rezistente la temperaturi mari",
+    "Rezistente la aproape toate substanțele chimice",
+    "Permanent elastice",
+    "Fără întreținere la exploatare",
+    "Funcționare la ciclu cald-rece",
+    "Rezistente la presiune înaltă",
+  ],
+  specifications: [
+    {
+      name: "Temperatură nominală",
+      value:
+        "-200°C ... +500°C",
+    },
+    {
+      name: "Temperatura la aburi",
+      value:
+        "-200°C ... +700°C",
+    },
+    {
+      name: "Temperatura ignifug până",
+      value:
+        "-200°C ... +900°C",
+    },
+    {
+      name: "Domeniu (pH)",
+      value: "0 - 14",
+    },
+    {
+      name: "Presiune UNITHERM 3012 (pmax)",
+      value:
+        "160 bar",
+    },
+    {
+      name: "Presiune UNITHERM 3013 (pmax)",
+      value:
+        "250 bar",
+    },
+    {
+      name: "Compresibilitate (max 100N/mm²) UNITHERM 3012",
+      value:
+        "50%",
+    },
+    {
+      name: "Compresibilitate (max 100N/mm²) UNITHERM 3013",
+      value:
+        "40%",
+    },
+    {
+      name: "Arcuire de reducere",
+      value:
+        "10 - 15 %",
+    },
+    {
+      name: "Rezistență nelimitată de presiune la 300°C",
+      value:
+        "48 N/mm²",
+    },
+  ],
+
+  
+  images: [
+      {
+        src: "/images/products/Garnituri-plate-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/Garnituri-plate-schita2.jpg",
+        alt: "Schita garnitura"
+      }
+  ],
+
+  table: {
+    columns: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+
+    rows: [
+      [
+        "UNITHERM 3012",
+        "Garnitură plată universală cu consolidare din tablă netedă inox W1.4401 (316) de 0,05mm grosime",
+        "Domeniu de presiune: \nPN 40 / p< 40 bar la suprafețe netede-plane \nPN 160 / p< 160 bar la sistem canelură/pană",
+        "Se distinge prin adaptare excelentă la flanșe brute, deteriorate și ușor deformate.",
+      ],
+
+      [
+        "UNITHERM 3013",
+        "Garnitură plată de presiune înaltă cu consolidare din tablă perforată inox W1.4401 (316) de 0,1mm grosime",
+        "Domeniu de presiune: \nPN 40 / p< 40 bar la suprafețe netede-plane \nPN 160 / p< 160 bar la sistem canelură/pană \nPN 250 / p< 250 bar la sistem canelură/pană",
+        "Se distinge prin adaptare excelentă la flanșe brute, deteriorate și ușor deformate.",
+        "Se poate executa cu bordură interioară și exterioară din inox W1.4571 (316L) de 0,15mm grosime.  (UNITHERM 3013-B cu bordură suplimentară interioare/ UNITHERM 3013-BE cu bordură suplimentară interioară+exterioară",
+      ],
+
+      [
+        "Program de livrare ",
+        "Garnituri conform desenelor beneficiarilor",
+        "Garnituri plate conform DIN, ANSI, API etc. cu grosimea 1; 1,5; 2 sau 3 mm",
+        "Garniturile cu grosimea de 3 și 4,5 mm precum și garniturile plate peste ø1000 mm vor fi executate din segmente laminate",
+        "Plăci de etanșare 1000 x 1000 mm cu grosimea 1; 1,5; 2 sau 3 mm",
+      ],
+    ],
+  },
+},
+6: {
+  intro: "Se compun din bandă înfăşurată din oţel inox cu umplutură din grafit etc. şi cu sau fără inel interior precum şi inel exterior de centrare.",
+  description: "Garniturile spirometalice se potexecuta conform normelor DIN;ANSI (ASME); API; BS etc.sau cu dimensiuni libere.Profilul special al spiralei garantează readucerea necesară laoscilaţii de temperatură şi deplasări mici ale flanşelor.Rugozitatea recomandată asuprafeţelor să fie 25-50 μm (Rt).",
+  applications: [
+    "Industria petrolieră şi chimică",
+    "Centrale energetice",
+    "Schimbători de căldură",
+    "Conducte şi cazane",
+    "Pompe şi ventile",
+  ],
+  specifications: [
+    {
+      name: "Temperatură maximală",
+      value:
+        "+550°C/ +700° aburi",
+    },
+    {
+      name: "Domeniu pH",
+      value:
+        "0 - 14",
+    },
+    {
+      name: "Presiune maximală",
+      value:
+        "320 bari",
+    },
+    {
+      name: "Umplutură",
+      value: "PTFE până la 250°C grafit până la 550°C standard ceramică până la 1000°",
+    },
+    {
+      name: "bandă înfăşurată şi inel interior",
+      value:
+        "W1.4301 (304)/ W1.4404 (316L) / W1.4306 (304L)/ W1.4541 (321)",
+    },
+    {
+      name: "inel exterior (centrare)",
+      value:
+        "oţel galvanizat sau inox",
+    },
+  ],
+
+  
+  images: [
+      {
+        src: "/images/products/garnituri-metalice-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/garnituri-metalice-schita2.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/garnituri-metalice-schita3.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/garnituri-metalice-schita4.jpg",
+        alt: "Schita garnitura"
+      }
+  ],
+
+  table: {
+    columns: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+
+    rows: [
+      [
+        "Formă tip SP1",
+        "Flanşă cu canal",
+        "La grosimea garniturii iniţiale de 4,5mm să rămînă de exemplu după montare(contact metalic flanşăpe flanşă) adîncimea canalui de 3,3±0,1mm.",
+      ],
+
+      [
+        "Formă tip SP2",
+        "Flanşă netedă",
+        "centrare a garniturilor şi protecţia la deformare prin inel exterior",
+      ],
+
+      [
+        "Formă tip SP2-IR",
+        "Flanşă cu adîncitură",
+        "Protecție a garniturilor la deformare radială,la temperatură şi medii agresive prin inel interior",
+      ],
+      [
+        "Formă tip SP3",
+        "Flanşă netedă",
+        "Centrare a garniturilor şi protecţia la deformare prin inel exterior",
+        "Protectie a garniturilor la deformare radială, la temperatură şi medii agresive prin inel interior",
+      ],
+      [
+        "Grosimi preferate",
+        "s - înainte de montare \ns2 - după montare",
+        "s(mm) \u00A0\u00A0\u00A0   s1(mm)  \u00A0\u00A0\u00A0  s2(mm) \n3,2 \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  2  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  2,3-2,5 \n4,5  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  3  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  3,2-3,4",
+      ],
+    ],
+  },
+},
+7: {
+  specifications: [
+    {
+      name: "Șnur răsucit ",
+      value:
+        "ø3 - ø50mm",
+    },
+    {
+      name: "Împletit pătrat",
+      value:
+        "4x4 - 60x60mm",
+    },
+    {
+      name: "Împletit dreptunghiular",
+      value:
+        "15x10 - 60x30mm",
+    },
+    {
+      name: "Împletit rotundr",
+      value: "ø4 - ø80mm",
+    },
+    {
+      name: "Bandă",
+      value:
+        "grosimi: 2-6mm lăţimi: 10-300",
+    },
+    {
+      name: "Țesătura fără și cu acoperire",
+      value:
+        "grosimi: 0,1-3mm lăţimi: 1m",
+    },
+    {
+      name: "SALTELE",
+      value:
+        "grosimi: 6 (¼“); 13 (½“); 19 (¾“); 25 (1“); 38 (1½“); 50mm (2“)/ lăţimi: 610; 1220mm/ densităţi: 96; 128; 160 kg/m³",
+    },
+  ],
+
+  
+  images: [
+      {
+        src: "/images/products/termoizolante-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/termoizolante-schita2.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/termoizolante-schita3.jpg",
+        alt: "Schita garnitura"
+      },
+
+  ],
+
+  table: {
+    columns: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+
+    rows: [
+      [
+        "Fibră de sticlă şi Silicat",
+      ],
+
+      [
+        "Date tehnice",
+        "GLAS 450",
+        "GLAS 700",
+        "GLAS 850",
+        "SILICAT",
+      ],
+
+      [
+        "Temperatură de lucru",
+        "450°C",
+        "700°C ",
+        "850°C ",
+        "1000°C ",
+      ],
+      [
+        "Temperatură max. pt. scurt timp",
+        "550°C",
+        "800°C",
+        "1000°C",
+        "1350°C",
+      ],
+      [
+        "Diametru al fibrelor",
+        "6-10 µm",
+        "6-10 µm",
+        "6 µm",
+        "6 µm",
+      ],
+      [
+        "Pierdere la recoacere",
+        "< 1,5%",
+        "< 3%",
+        "< 3%",
+        "2% min.",
+      ],
+      [
+        "Fibre ceramice",
+      ],
+      [
+        "Date tehnice",
+        "KF 1260",
+        "KF 1400",
+        "KF 1430Z",
+        "KF 1600",
+      ],
+      [
+        "Temperatură de lucru",
+        "1100°C",
+        "1250°C",
+        "1350°C ",
+        "1600°C",
+      ],
+      [
+        "Temperatură de clasificare",
+        "1260°C",
+        "1400°C",
+        "1430°C",
+        "1600°C",
+      ],
+      [
+        "Temperatură de topire",
+        "1730°C",
+        "1790°C",
+        "1790°C",
+        "2000°C",
+      ],
+      [
+        "Analisă chimică Al2O3/SiO2",
+        "48/52%",
+        "52/48%",
+        "37/48%",
+        "80/20%",
+      ],
+      [
+        "Pierdere la recoacere la \n1200°C după 24 h (%)",
+        "2,4%",
+        "2,0%",
+        "1,4%",
+        "0%",
+      ],
+    ],
+  },
+},
+8: {
+  images: [
+      {
+        src: "/images/products/curele-trapezoidale-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-trapezoidale-schita2.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-trapezoidale-schita3.jpg",
+        alt: "Schita garnitura"
+      },
+
+  ],
+
+  table: {
+    columns: [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+
+    rows: [
+      [
+        "CURELE TRAPEZOIDALE CLASICE   ISO 4183/84, DIN 2215, STAS 1164",
+      ],
+
+      [
+        "Profil I (învelit) ",
+        "5\n\u00A0",
+        "6\nY ",
+        "8\n\u00A0",
+        "10\nZ",
+        "13\nA",
+        "17\nB",
+        "20\n\u00A0",
+        "22\nC",
+        "25\n\u00A0",
+        "32\nD",
+        "40\nE",
+      ],
+
+      [
+        "Profil II (flancuri deschise şi danturat prin formare)",
+        "",
+        "",
+        "X8\n\u00A0",
+        "X10\nXZ",
+        "X13\nXA",
+        "X17\nXB",
+        "X20\n\u00A0",
+        "X22\nXC",
+        "",
+        "",
+        "",
+      ],
+      [
+        "Lăţime mare b",
+        "5",
+        "6",
+        "8",
+        "10",
+        "13",
+        "17",
+        "20",
+        "22",
+        "25",
+        "32",
+        "40",
+      ],
+      [
+        "%nălţimea curelelor h ",
+        "3",
+        "4",
+        "5",
+        "6",
+        "8",
+        "11",
+        "12,5",
+        "14",
+        "16",
+        "20",
+        "25",
+      ],
+      [
+        "Lăţime mică bu",
+        "2,8",
+        "3,3",
+        "4,5",
+        "5,9",
+        "7,5",
+        "9,4",
+        "11,4",
+        "12,3",
+        "14",
+        "18,2",
+        "22,8",
+      ],
+      [
+        "Lungime interioară Li=La-",
+        "19",
+        "25",
+        "31",
+        "38",
+        "50",
+        "69",
+        "79",
+        "88",
+        "100",
+        "126",
+        "157",
+      ],
+      [
+        "Lungime activă Lw (Ld)=Li+",
+        "11",
+        "15",
+        "19",
+        "22",
+        "30",
+        "40",
+        "48",
+        "58",
+        "61",
+        "75",
+        "80",
+      ],
+      [
+        "CURELE TRAPEZOIDALE %NGUSTE ISO 4183/84, ISO 2790, DIN 7753, STAS 7192/2, RMA/MPT",
+      ],
+      [
+        "Profil I (învelit)",
+        "SPZ",
+        "SPA",
+        "SPB",
+        "19",
+        "SPC",
+        "3V",
+        "5V",
+        "8V",
+        "",
+        "",
+        "",
+      ],
+      [
+        "Profil II (flancuri deschise şi danturat prin formare)",
+        "XPZ",
+        "XPA",
+        "XPB",
+        "S",
+        "XPC",
+        "3VX",
+        "5VX",
+        "",
+        "AVX10",
+        "AVX13",
+      ],
+      [
+        "Lăţime mare b",
+        "9,7",
+        "12,7",
+        "16,3",
+        "18,6",
+        "22",
+        "9,53",
+        "15,88",
+        "25,4",
+        "10",
+        "13",
+      ],
+      [
+        "înălţimea curelelor h ",
+        "8",
+        "10",
+        "13",
+        "15",
+        "18",
+        "8",
+        "13",
+        "23",
+        "8",
+        "10",
+      ],
+      [
+        "Lăţime mică bu ",
+        "4",
+        "5,6",
+        "7",
+        "8",
+        "9,3",
+        "4,2",
+        "7,3",
+        "9,6",
+        "4,9",
+        "5,8",
+      ],
+      [
+        "Lungime interioară Li=La- ",
+        "51",
+        "63",
+        "82",
+        "94",
+        "113",
+        "42",
+        "71",
+        "120",
+        "51",
+        "63",
+      ],
+      [
+        "Lungime activă Lw (Ld)=La-",
+        "13",
+        "18",
+        "22",
+        "25",
+        "30",
+        " ",
+        " ",
+        " ",
+        "13",
+        "18",
+      ],
+      [
+        "CURELE VARIATOR ISO 1604, ISO 3410, DIN 7719",
+      ],
+      [
+        "Profil II (flancuri deschise şi danturat prin formare)",
+      ],
+      [
+        "13x5",
+        "28x8",
+        "47x13",
+      ],
+      [
+        "17x5 ISO W16 ",
+        "30x10",
+        "52x16 ISO W50",
+      ],
+      [
+        "20x10",
+        "32x10 ISO W31,5",
+        "55x16",
+      ],
+      [
+        "21x6 ISO W20",
+        "36x12",
+        "65x20 ISO W63",
+      ],
+      [
+        "22x8",
+        "36x14",
+        "70x18",
+      ],
+      [
+        "23x10",
+        "37x10",
+        "80x23 ISO W80",
+      ],
+      [
+        "26x8 ISO W25",
+        "41x13 ISO W 40",
+        "",
+      ],
+      [
+        "CURELE TRAPEZOIDALE SPECIALE ISO 5290; DIN 7722; ISO 9962; DIN 7867",
+      ],
+      [
+        "Curele hexagonale",
+        "Curele multiple (Kraftband)",
+        "Poly-V (b x h)",
+        "Curele modulare",
+      ],
+      [
+        "AA (13x10)",
+        "A/HA (13x9,9) e~15,9 3V/ 9J (9x9,9) e~10,3",
+        "PH (1,6x3,0)",
+        "Z/10; A/13 ",
+      ],
+      [
+        "BB (17x13)",
+        "B/HB (17x13) e~19,1 5V/ 15J (15x15,1) e~17,5 ",
+        "PJ (2,34x3,5) ",
+        "B/17; C/22 ",
+      ],
+      [
+        "CC (22x17)",
+        "C/HC (22x16,2) e~25,4 8V/ 25J (25x25,5) e~28,6",
+        "PK (3,56x5,5) ",
+        "D/32",
+      ],
+      [
+        "22x22 (22x22) ",
+        "D/HD (32x22,4) e~36,5 3VX (9x9,9) e~10,3",
+        "PL (4,7x7,0)",
+        "SPA",
+      ],
+      [
+        "25x22 (25x22)",
+        "SPB (16,5x15,6) e~20 5VX (15x15,1) e~17,5",
+        "PM (9,4x13,0)",
+        "SPB",
+      ],
+      [
+        "DD (32x25)",
+        "SPC (22x22,6) e~25,5 ",
+        "TB2 (2,0x2,2)",
+        "SPC",
       ],
     ],
   },
