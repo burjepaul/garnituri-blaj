@@ -999,6 +999,602 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
     ],
   },
 },
+9: {
+  intro: "Se compun din Neopren și Poliuretan cu cordul de tracțiune Kevlar, oțel superior și fibră de sticlă.",
+  description:"Straturi speciale de acoperire: Supergrip; Linatex; PVC profilat; PU; HV; Neo; Correx; Porol; Celloflex; PAR; Silicon; RP 400. Se livrează sub formă de curea închisă/deschisă și roți pentru curele dințate.",
+  applications: [
+    "Transimisie sincronă",
+    "Benzi transportoare acoperite cu materiale speciale (Celloflex, Supergrip, Linatex)",
+  ],
+  specifications: [
+    {
+      name: "T2,5; T5, T10; T20 dinţi în formă trapezoidală",
+      value:
+        "Lăţimi preferate (mm): 4; 6; 8; 10; 12; 16; 20; 25; 32; 50; 75; 100",
+    },
+    {
+      name: "AT5; AT5L; AT10; AT10L; AT20 dinţi în formă trapezoidală",
+      value:
+        "Lăţimi preferate (mm): 10; 16; 25; 32; 50; 75; 100",
+    },
+    {
+      name: "MXL; XL; L; H ; XH; XXH dinţi în formă trapezoidală",
+      value:
+        "Lăţimi preferate: Cod (L): 012(3,18) 019(4,76) 025(6,35) 031(7,94) 037(9,63) 050(12,7) 075(19,1) 100(25,4) 150(38,1) 200(50,8) 300(76,2) 400(101,6) 500(127) 600(152,4) 700(177,8 )",
+    },
+    {
+      name: "3M; 5M; 8M; 14M; 20M dinţi în formă semirotundă",
+      value: "",
+    },
+    {
+      name: "STD 3M; STD 5M; STD 8M; STD 14M  formă de evolventă",
+      value:
+        "Lăţimi preferate (mm): 6; 9; 15; 20; 25; 30; 40; 50; 55; 85; 115; 170",
+    },
+    {
+      name: "Dublu dinţate",
+      value:
+        "D-XL; D-L; D-H; D-T5; D-T10; D-5M; D-8M; D-14M;",
+    },
+  ],
+  images: [
+      {
+        src: "/images/products/curele-dintate.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-dintate-schita2.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-dintate-schita3.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-dintate-schita4.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-dintate-schita5.jpg",
+        alt: "Schita garnitura"
+      },
+
+  ],
+
+  tables: [{
+    columns: [
+      "Tip",
+      "T2,5",
+      "T5",
+      "T10",
+      "T20",
+      "AT5",
+      "AT10",
+      "AT20",
+      "MXL",
+      "XL",
+      "L",
+      "H",
+      "XH",
+      "XXH",
+    ],
+    rows: [
+      [
+        "Pasul t",
+        "2,5",
+        "5,0",
+        "10,0",
+        "20,0",
+        "5,0",
+        "10,0",
+        "20,0",
+        "2,032",
+        "5,08",
+        "9,525",
+        "12,7",
+        "22,225",
+        "31,75",
+      ],
+      [
+        "Unghiul dintelui",
+        "40°",
+        "40°",
+        "40°",
+        "40°",
+        "50°",
+        "50°",
+        "50°",
+        "40°",
+        "50°",
+        "40°",
+        "40°",
+        "40°",
+        "40°",
+      ],
+      [
+        "Înălțimea dinteului h1",
+        "0,7",
+        "1,2",
+        "2,5",
+        "5,0",
+        "1,2",
+        "2,5",
+        "5,0",
+        "0,51",
+        "1,27",
+        "1,91",
+        "2,29",
+        "6,35",
+        "9,53",
+      ],
+      [
+        "Înălțimea dinteului w",
+        "1,0",
+        "1,8",
+        "3,5",
+        "6,5",
+        "2,5",
+        "5,0",
+        "10,0",
+        "0,77",
+        "1,38",
+        "3,2",
+        "4,4",
+        "7,94",
+        "12,1",
+      ],
+      [
+        "Înălțimea curelelor h",
+        "1,3",
+        "2,2",
+        "4,5",
+        "8,0",
+        "2,7",
+        "5,0",
+        "8,0",
+        "1,2",
+        "2,3",
+        "3,6",
+        "4,3",
+        "11,2",
+        "15,7",
+      ],
+    ],
+  },
+  {
+        columns: [
+      "Tip",
+      "3M",
+      "5M",
+      "8M",
+      "14M",
+      "20M",
+      "S 3M",
+      "S 5M",
+      "S 8M",
+      "S 14M",
+    ],
+    rows: [
+      [
+        "Pasul t",
+        "3,0",
+        "5,0",
+        "8,0",
+        "14,0",
+        "20,0",
+        "3,0",
+        "5,0",
+        "8,0",
+        "14,0",
+      ],
+      [
+        "Înălțimea dintelui h1",
+        "1,20",
+        "2,10",
+        "3,40",
+        "6,10",
+        "8,40",
+        "1,14",
+        "1,91",
+        "3,05",
+        "5,30",
+      ],
+      [
+        "Înălțimea curelelor h",
+        "2,4",
+        "3,6",
+        "5,6",
+        "10,0",
+        "13,2",
+        "1,9",
+        "3,4",
+        "5,3",
+        "10,2",
+      ],
+    ],
+  }
+]
+},
+10: {
+  description:"Straturi speciale de acoperire: Supergrip; Linatex; PVC profilat; PU; HV; Neo; Correx; Porol; Celloflex; PAR; Silicon; RP 400. Se livrează sub formă de curea închisă/deschisă și roți pentru curele dințate.",
+  applications: [
+    "Transimisie sincronă",
+    "Benzi transportoare acoperite cu materiale speciale (Celloflex, Supergrip, Linatex)",
+  ],
+  specifications: [
+    {
+      name: "CURELE DE ANTRENARE",
+      value:
+        "",
+    },
+    {
+      name: "Transmiterea mişcării şi fortelor de la roata de antrenare (motor) la roata antrenată.",
+      value:
+        "",
+    },
+    {
+      name: "Clasificarea antrenărilor",
+      value:
+        "Uşoare ≤2,5kW /mijlocii ≤15kW/ grele ≤60kW",
+    },
+    {
+      name: "Strat/cord de tracţiun",
+      value: "bumbac, poliester (PES), aramidă (Kevlar) poliamidă (Nomex), fibre de sticlă, oţel",
+    },
+    {
+      name: "Strat de acoperire",
+      value:
+        "PU; PVC; Poliolefin PO; piele; cauciuc neted sau profilat/structurat din Neopren; Silicon; NR; NBR",
+    },
+    {
+      name: "Proprietăți speciale",
+      value:
+        "antistatic; admitere/ permisiune la alimente; extrem rezistent la uzură; rezistent la uleiuri şi grăsimi minerale, animale şi vegetale; cu nivel de zgomot redus; cu alungire redusă; ignifug; strat de acoperire cu profil sau structură",
+    },
+    {
+      name: "BENZI TRANSPORTOARE",
+      value:
+        "",
+    },
+    {
+      name: "Benzi transportoare Transport de materiale diferite de la punct A la punct B  ca piese tehnice, produse agricole, alimente, pietre, granule, saci etc.",
+      value:
+        "",
+    },
+  ],
+
+  images: [
+      {
+        src: "/images/products/benzi-transportoare.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/benzi-transportoare-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/benzi-transportoare-schita2.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-de-antrenare.jpg",
+        alt: "Schita garnitura"
+      },
+  ],
+
+  tables: [{
+    title: "Date necesare pentru determinarea curelelor și benzilor",
+    columns: [
+      "Curele de antrenare",
+      "Benzi transportoare",
+    ],
+    rows: [
+      [
+        "Curea\n   - lungime x lăţime x grosime (mm) \n- curs / drum de întindere ca. (mm) \nMotor\n  - putere P (kW) \n- turaţie n (rot/min) \n- diametrul ambelor fulii (roata mică şi mare) d1/ d2 (mm) ",
+        "Bandă\n   - lungime x lăţime x grosime (mm) \nSistem\n   - viteza benzii (m/min sau m/s) \n-diametre tamburi d1 şi d2 (mm) \n- banda rulează pe role sau pe masă \n- felul de ghidare \nProdus\n   - produs transportat\n - greutate max. a produsului (kg) ",
+        "Condiţii deosebite: ulei; praf; umezeală (apă), chimicale; temperatură etc. (obvervaţii de mediu)\n Date suplimentare: tipul maşinii sau instalaţia; tipul materialului curelei folosite anterior ",
+      ],
+    ],
+  },
+]
+},
+11: {
+  applications: [
+    "Bandă transportoară",
+    "Curea de antrenare (la forţele mai mici)",
+  ],
+  specifications: [
+    {
+      name: "Material:",
+      value:
+        "poliuretan sau poliester",
+    },
+    {
+      name: "Duritate:",
+      value:
+        "75°/ 80°/ 85°/ 90°/ 100° Shore A",
+    },
+    {
+      name: "Cord de tracţiune:",
+      value:
+        "cu şi fără cord din Kevlar, Poliester, oţel",
+    },
+    {
+      name: "Temperatură la PU:",
+      value:
+        "-30°C / +60°C (pt. scurt timp 80°C)",
+    },
+    {
+      name: "Temperatură la PE:",
+      value:
+        "-20°C / +80°C (pt. scurt timp 100°C)",
+    },
+    {
+      name: "Viteză maximă:",
+      value:
+        "ca. 15m/s la 85°Shore A",
+    },
+    {
+      name: "Rezistență la tracțiune:",
+      value:
+        "13-50 daN/cm² (de ex.:18 daN/cm² la 85°Shore A)",
+    },
+    {
+      name: "Pretensionarea curelelor:",
+      value:
+        "2% - 8% (100° Shore A ca. 2-3%/ 80° Shore A ca.7%)",
+    },
+    {
+      name: "Rezistență chimică:",
+      value:
+        "da/ ozon; hidrocarburi; ulei; grăsimi",
+    },
+    {
+      name: "Rezistență chimică:",
+      value:
+        "nu/ acizi concentraţi; cetone; hidrocarburi clorate şi nitrate",
+    },
+    {
+      name: "Forme de livrare",
+      value:
+        "-Curele închise fără sfârşit:  la bucate \n-Curele deschise:                 la metru\n -Se pot livra şi sculele sau instalaţiile complete pentru îmbinarea curelelor!",
+    },
+],
+
+  images: [
+      {
+        src: "/images/products/curele-din-plastic3.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-din-plastic.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/curele-din-plastic2.jpg",
+        alt: "Schita garnitura"
+      },
+  ],
+},
+12: {
+  intro:
+    "Țesături metalice pentru cernere, filtrare, separare și serigrafie, precum și tablă perforată pentru aplicații industriale.",
+
+  description: `Gama de produse cuprinde țesături metalice și site pentru cernere, filtrare, separare și serigrafie, realizate într-o varietate de ochiuri, diametre de sârmă și materiale.
+
+Țesăturile pot fi executate în diferite variante de împletire, inclusiv țesătură pânză, țesătură netedă cu ochiuri pătrate și alte configurații pentru aplicații speciale. În funcție de necesități, sunt disponibile și variante cu ochiuri foarte lungi, precum și țesături pentru aplicații de filtrare și serigrafie.
+
+Pentru aplicațiile de cernere și separare sunt disponibile și table perforate cu diferite forme și dispuneri ale perforațiilor, inclusiv găuri circulare, pătrate, alungite și dreptunghiulare.`,
+
+  applications: [
+    "Cernere și clasificare",
+    "Filtrare industrială",
+    "Separarea materialelor",
+    "Serigrafie",
+    "Industria minieră",
+    "Industria alimentară",
+    "Industria chimică",
+    "Industria farmaceutică",
+    "Construcții și instalații industriale",
+    "Utilaje și echipamente de procesare",
+  ],
+
+  advantages: [
+    "Gamă variată de ochiuri și diametre de sârmă",
+    "Diferite tipuri de țesătură și împletire",
+    "Execuții pentru filtrare și cernere de precizie",
+    "Disponibilitate în materiale metalice diferite",
+    "Posibilitatea utilizării pentru aplicații speciale",
+    "Table perforate cu forme variate ale găurilor",
+  ],
+
+  specifications: [
+    {
+      name: "Tipuri de țesătură",
+      value:
+        "Țesătură pânză, țesătură netedă cu ochiuri pătrate și alte variante speciale",
+    },
+    {
+      name: "Diametrul sârmei",
+      value: "0,025 – 3 mm",
+    },
+    {
+      name: "Materiale",
+      value:
+        "Cupru, alamă, oțel, oțel zincat, inox refractar, nichel, titan și aliaje speciale",
+    },
+    {
+      name: "Lățimea ochiurilor",
+      value: "0,02 – 50 mm",
+    },
+    {
+      name: "Lățimea țesăturii",
+      value: "Până la 3000 mm",
+    },
+    {
+      name: "Finețea filtrului",
+      value: "Până la 0,005 mm, în funcție de aplicație",
+    },
+    {
+      name: "Tipuri tablă perforată",
+      value:
+        "Găuri circulare, pătrate, alungite și dreptunghiulare",
+    },
+  ],
+
+  images: [
+    {
+      src: "/images/products/tesaturi-tehnice.jpg",
+      alt:
+        "Țesături metalice pentru cernere, filtrare, separare și tablă perforată",
+    },
+    {
+      src: "/images/products/metode-tesere.jpg",
+      alt:
+        "Țesături metalice pentru cernere, filtrare, separare și tablă perforată",
+    },
+    {
+      src: "/images/products/metode-tesere-schita2.jpg",
+      alt:
+        "Țesături metalice pentru cernere, filtrare, separare și tablă perforată",
+    },
+    {
+      src: "/images/products/metode-tesere-schita3.jpg",
+      alt:
+        "Țesături metalice pentru cernere, filtrare, separare și tablă perforată",
+    },
+  ],
+
+  tables: [
+    {
+      title: "ȚESĂTURI PENTRU CERNERE, FILTRARE ȘI SEPARARE",
+
+      columns: [
+        "Caracteristică",
+        "Domeniu / Variante",
+      ],
+
+      rows: [
+        [
+          "Tip țesătură",
+          "Țesătură pânză",
+        ],
+        [
+          "Ochiuri",
+          "Ochiuri pătrate și alte configurații",
+        ],
+        [
+          "Diametrul sârmei",
+          "0,025 – 3 mm",
+        ],
+        [
+          "Lățimea ochiurilor",
+          "0,02 – 50 mm",
+        ],
+        [
+          "Lățimea țesăturii",
+          "Până la 3000 mm",
+        ],
+        [
+          "Finețea filtrului",
+          "Până la 0,005 mm",
+        ],
+      ],
+    },
+
+    {
+      title: "MATERIALE DISPONIBILE",
+
+      columns: [
+        "Material",
+        "Utilizare / Observații",
+      ],
+
+      rows: [
+        [
+          "Cupru",
+          "Aplicații speciale și filtrare",
+        ],
+        [
+          "Alamă",
+          "Țesături pentru aplicații industriale",
+        ],
+        [
+          "Oțel",
+          "Cernere, separare și aplicații industriale",
+        ],
+        [
+          "Oțel zincat",
+          "Aplicații unde este necesară protecția împotriva coroziunii",
+        ],
+        [
+          "Inox refractar",
+          "Aplicații la temperaturi ridicate",
+        ],
+        [
+          "Nichel",
+          "Aplicații industriale speciale",
+        ],
+        [
+          "Titan",
+          "Aplicații speciale cu cerințe ridicate",
+        ],
+      ],
+    },
+
+    {
+      title: "TABLĂ PERFORATĂ PENTRU CERNERE ȘI SEPARARE",
+
+      columns: [
+        "Tip perforație",
+        "Descriere",
+      ],
+
+      rows: [
+        [
+          "Găură circulară",
+          "Perforații circulare dispuse uniform",
+        ],
+        [
+          "Găură pătrată",
+          "Perforații pătrate pentru aplicații de separare",
+        ],
+        [
+          "Găură alungită",
+          "Perforații alungite pentru aplicații speciale",
+        ],
+        [
+          "Găură dreptunghiulară",
+          "Perforații dreptunghiulare pentru diferite configurații de filtrare",
+        ],
+      ],
+    },
+
+    {
+      title: "CARACTERISTICI ALE TABLEI PERFORATE",
+
+      columns: [
+        "Parametru",
+        "Descriere",
+      ],
+
+      rows: [
+        [
+          "Suprafață deschisă",
+          "Procentul suprafeței ocupate de perforații",
+        ],
+        [
+          "Dispunere perforații",
+          "În funcție de configurația solicitată",
+        ],
+        [
+          "Formă perforații",
+          "Circulară, pătrată, alungită sau dreptunghiulară",
+        ],
+      ],
+    },
+  ],
+},
   // până la categoria 17
 };
 

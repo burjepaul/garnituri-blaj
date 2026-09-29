@@ -190,60 +190,72 @@ function ProductDetails() {
         </section>
       )}
 
+      {/* TABELE */}
+      {details.tables?.length > 0 && (
+        <section className="product-section product-tables-section">
 
-      {/* TABEL */}
-      {details.table?.columns?.length > 0 &&
-        details.table?.rows?.length > 0 && (
+          <div className="section-heading">
+            <span>{getSectionNumber()}</span>
+            <h2>GAMĂ DE PRODUSE</h2>
+          </div>
 
-          <section className="product-section product-table-section">
+          <div className="product-tables">
 
-            <div className="section-heading">
-              <span>{getSectionNumber()}</span>
-              <h2>GAMĂ DE PRODUSE</h2>
-            </div>
+            {details.tables.map((table, tableIndex) => (
 
-            <div className="product-table-wrapper">
+              <div
+                className="product-table-block"
+                key={tableIndex}
+              >
 
-              <table className="product-table">
+                {table.title && (
+                  <h3 className="product-table-title">
+                    {table.title}
+                  </h3>
+                )}
 
-                <thead>
-                  <tr>
-                    {details.table.columns.map(
-                      (column, index) => (
-                        <th key={index}>
-                          {column}
-                        </th>
-                      )
-                    )}
-                  </tr>
-                </thead>
+                <div className="product-table-wrapper">
 
-                <tbody>
+                  <table className="product-table">
 
-                  {details.table.rows.map(
-                    (row, rowIndex) => (
-                      <tr key={rowIndex}>
+                    <thead>
+                      <tr>
+                        {table.columns.map((column, index) => (
+                          <th key={index}>
+                            {column}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
 
-                        {row.map(
-                          (cell, cellIndex) => (
+                    <tbody>
+
+                      {table.rows.map((row, rowIndex) => (
+                        <tr key={rowIndex}>
+
+                          {row.map((cell, cellIndex) => (
                             <td key={cellIndex}>
                               {cell}
                             </td>
-                          )
-                        )}
+                          ))}
 
-                      </tr>
-                    )
-                  )}
+                        </tr>
+                      ))}
 
-                </tbody>
+                    </tbody>
 
-              </table>
+                  </table>
 
-            </div>
+                </div>
 
-          </section>
-        )}
+              </div>
+
+            ))}
+
+          </div>
+
+        </section>
+      )}
 
         {/* GALERIE */}
 {details.images?.length > 0 && (

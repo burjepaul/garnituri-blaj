@@ -1257,6 +1257,7 @@
   .advantage-card h3 {
     font-size: 12px;
   }
+  
 
   .specification-row {
     grid-template-columns: 1fr;
@@ -1372,4 +1373,40 @@
   .carousel-dots {
     margin-top: 14px;
   }
+}
+
+.product-tables {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.product-table-block {
+  width: 100%;
+}
+
+.product-table-title {
+  margin: 0 0 14px;
+
+  color: #263136;
+  font-size: 14px;
+  font-weight: 700;
+
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.product-table-title::before {
+  content: "";
+  display: inline-block;
+
+  width: 4px;
+  height: 18px;
+
+  margin-right: 10px;
+
+  vertical-align: -4px;
+
+  background: #08702f;
+  border-radius: 2px;
 }
