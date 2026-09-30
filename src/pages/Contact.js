@@ -45,11 +45,11 @@ function Contact() {
 
           <h3>Date de contact</h3>
 
-          <p>📍 Târgu Mureș, România</p>
+          <p>📍 Blaj, jud. Alba</p>
 
-          <p>📞 +40 745 000 000</p>
+          <p>📞 +40 723 561 806</p>
 
-          <p>✉ contact@garnituripro.ro</p>
+          <p>✉ office@garstar.ro</p>
 
         </div>
 

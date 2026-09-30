@@ -1,33 +1,327 @@
-.navbar{
-    height:80px;
-    background:#003366;
-    color:white;
+/* =========================
+   NAVBAR
+========================= */
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+.navbar {
+  position: relative;
+  z-index: 100;
 
-    padding:0 8%;
+  width: 100%;
+  height: 76px;
+
+  background: #172024;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.logo{
-    font-size:28px;
-    font-weight:bold;
+
+/* =========================
+   CONTAINER
+========================= */
+
+.navbar-container {
+  width: 88%;
+  max-width: 1280px;
+  height: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navbar ul{
-    display:flex;
-    list-style:none;
-    gap:35px;
+
+/* =========================
+   LOGO
+========================= */
+
+.navbar-logo {
+  width: 145px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+
+  text-decoration: none;
 }
 
-.navbar a{
-    color:white;
-    text-decoration:none;
-    font-size:18px;
-    transition:.3s;
+.navbar-logo img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+  object-position: left center;
+
+  opacity: 1;
 }
 
-.navbar a:hover{
-    color:#ff6b00;
+
+/* =========================
+   MENU
+========================= */
+
+.navbar-menu {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+
+  gap: 42px;
+
+  list-style: none;
+}
+
+.navbar-menu li {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu a {
+  position: relative;
+
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  color: #9da9a5;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1.1px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition: color 0.25s ease;
+}
+
+
+/* LINIA DE SUBTITLU */
+
+.navbar-menu a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 0;
+  height: 2px;
+
+  background: #08702f;
+
+  transition: width 0.25s ease;
+}
+
+
+/* HOVER */
+
+.navbar-menu a:hover {
+  color: #ffffff;
+}
+
+.navbar-menu a:hover::after {
+  width: 100%;
+}
+
+
+/* PAGINA CURENTA */
+
+.navbar-menu a.active {
+  color: #ffffff;
+}
+
+.navbar-menu a.active::after {
+  width: 100%;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.navbar-cta {
+  min-width: 145px;
+  height: 40px;
+
+  padding: 0 16px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 18px;
+
+  background: #08702f;
+  color: #ffffff;
+
+  border: 1px solid #08702f;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 0.9px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.navbar-cta span {
+  font-size: 17px;
+  font-weight: 400;
+
+  line-height: 1;
+
+  transition: transform 0.25s ease;
+}
+
+.navbar-cta:hover {
+  background: #09642c;
+  border-color: #09642c;
+
+  transform: translateY(-1px);
+}
+
+.navbar-cta:hover span {
+  transform: translateX(4px);
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .navbar-logo {
+    width: 130px;
+    height: 40px;
+  }
+
+  .navbar-menu {
+    gap: 27px;
+  }
+
+  .navbar-cta {
+    min-width: 125px;
+    height: 38px;
+
+    padding: 0 13px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  .navbar {
+    height: auto;
+    min-height: 68px;
+  }
+
+  .navbar-container {
+    width: 92%;
+    min-height: 68px;
+
+    padding: 10px 0;
+
+    display: grid;
+
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 45px 42px;
+  }
+
+
+  /* LOGO */
+
+  .navbar-logo {
+    width: 120px;
+    height: 38px;
+
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+
+  /* CTA */
+
+  .navbar-cta {
+    min-width: 120px;
+    height: 36px;
+
+    padding: 0 12px;
+
+    grid-column: 2;
+    grid-row: 1;
+
+    font-size: 8px;
+  }
+
+
+  /* MENU */
+
+  .navbar-menu {
+    width: 100%;
+    height: 42px;
+
+    grid-column: 1 / -1;
+    grid-row: 2;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+  }
+
+  .navbar-menu a {
+    font-size: 9px;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+  .navbar-logo {
+    width: 105px;
+    height: 34px;
+  }
+
+  .navbar-cta {
+    min-width: 108px;
+    height: 34px;
+  }
+
+  .navbar-menu {
+    gap: 23px;
+  }
+
+  .navbar-menu a {
+    font-size: 8px;
+  }
 }

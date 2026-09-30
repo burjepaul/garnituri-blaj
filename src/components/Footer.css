@@ -1,11 +1,274 @@
-.footer{
+/* =========================
+   FOOTER
+========================= */
 
-    background:#003366;
-    color:white;
+.footer {
+  width: 100%;
+  background: #172024;
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
 
-    text-align:center;
+.footer-container {
+  width: 88%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
-    padding:25px;
 
-    margin-top:60px;
+/* =========================
+   MAIN FOOTER
+========================= */
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 55px 0 45px;
+}
+
+
+/* =========================
+   COMPANY
+========================= */
+
+.footer-company {
+  max-width: 330px;
+}
+
+.footer-label {
+  display: block;
+  margin-bottom: 18px;
+
+  color: #ffffff;
+
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer-company::after {
+  content: "";
+  display: block;
+
+  width: 38px;
+  height: 2px;
+
+  margin-bottom: 20px;
+
+  background: #08702f;
+}
+
+.footer-company p {
+  margin: 0;
+
+  color: #8f9b97;
+
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+}
+
+
+/* =========================
+   CONTACT INFORMATION
+========================= */
+
+.footer-contact {
+  width: 620px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 70px;
+  row-gap: 20px;
+}
+
+.footer-contact-line {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  align-items: start;
+
+  min-height: 32px;
+}
+
+.footer-contact-line span {
+  padding-top: 2px;
+
+  color: #08702f;
+
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.footer-contact-line p {
+  margin: 0;
+
+  color: #b1bbb7;
+
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+}
+
+
+/* =========================
+   FOOTER BOTTOM
+========================= */
+
+.footer-bottom {
+  min-height: 62px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.footer-bottom p {
+  margin: 0;
+
+  color: #68736f;
+
+  font-size: 9px;
+  letter-spacing: 0.4px;
+}
+
+.footer-bottom span {
+  color: #596560;
+
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .footer-info {
+    gap: 45px;
+    padding: 45px 0 35px;
+  }
+
+  .footer-company {
+    max-width: 250px;
+  }
+
+  .footer-contact {
+    width: 520px;
+    column-gap: 35px;
+  }
+
+  .footer-contact-line {
+    grid-template-columns: 60px 1fr;
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  .footer-container {
+    width: 92%;
+  }
+
+  .footer-info {
+    display: block;
+    padding: 40px 0 30px;
+  }
+
+  .footer-company {
+    max-width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .footer-label {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .footer-company p {
+    font-size: 11px;
+  }
+
+  .footer-contact {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+  }
+
+  .footer-contact-line {
+    grid-template-columns: 75px 1fr;
+  }
+
+  .footer-contact-line span {
+    font-size: 8px;
+  }
+
+  .footer-contact-line p {
+    font-size: 10px;
+  }
+
+  .footer-bottom {
+    min-height: auto;
+
+    padding: 18px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 8px;
+  }
+
+  .footer-bottom p {
+    font-size: 8px;
+    line-height: 1.5;
+  }
+
+  .footer-bottom span {
+    font-size: 7px;
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+  .footer-info {
+    padding: 35px 0 25px;
+  }
+
+  .footer-contact-line {
+    grid-template-columns: 65px 1fr;
+  }
+
+  .footer-contact-line p {
+    font-size: 9px;
+  }
+
+  .footer-bottom p {
+    font-size: 7px;
+  }
+
 }

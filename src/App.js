@@ -7,10 +7,14 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+
+      <ScrollToTop/>
+
       <Navbar />
 
       <Routes>

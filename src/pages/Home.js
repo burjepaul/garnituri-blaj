@@ -9,62 +9,93 @@ function Home() {
       {/* HERO */}
       <section className="hero">
 
-        <div className="hero-background" />
+        <div className="hero-background">
+          <div className="hero-grid" />
+          <div className="hero-glow" />
+        </div>
+
+        {/* LOGO CA ELEMENT DE BACKGROUND */}
+        <div className="hero-brand-background">
+          <img
+            src={logo}
+            alt="GARstar SRL"
+          />
+        </div>
 
         <div className="hero-overlay">
+
           <div className="hero-content">
 
-            <div className="hero-logo">
-              <img
-                src={logo}
-                alt="GARstar SRL"
-              />
+            <div className="hero-main">
+
+              <h1>
+                Garnituri la comandă
+                <br />
+                <span>pentru orice aplicație</span>
+              </h1>
+
+              <div className="hero-line">
+                <span />
+              </div>
+
+              <p className="hero-description">
+                Producem garnituri tehnice personalizate din cauciuc,
+                silicon, PTFE, fibră și alte materiale tehnice pentru
+                aplicații industriale, auto și echipamente speciale.
+              </p>
+
+              <div className="hero-buttons">
+
+                <Link
+                  to="/products"
+                  className="hero-btn hero-btn-primary"
+                >
+                  <span>Vezi produsele</span>
+                  <strong>→</strong>
+                </Link>
+
+                <Link
+                  to="/contact"
+                  className="hero-btn hero-btn-secondary"
+                >
+                  <span>Cere o ofertă</span>
+                  <strong>→</strong>
+                </Link>
+
+              </div>
+
             </div>
 
-            <span className="hero-label">
-              SOLUȚII INDUSTRIALE DE ETANȘARE
-            </span>
+            <div className="hero-features">
 
-            <h1>
-              Garnituri la comandă
-              <br />
-              pentru orice aplicație
-            </h1>
+              <div className="hero-feature">
+                <span>01</span>
+                <div>
+                  <strong>EXECUȚIE LA COMANDĂ</strong>
+                  <small>După desen, model sau dimensiuni</small>
+                </div>
+              </div>
 
-            <div className="hero-line" />
+              <div className="hero-feature">
+                <span>02</span>
+                <div>
+                  <strong>MATERIALE TEHNICE</strong>
+                  <small>Cauciuc • PTFE • Silicon • Fibră</small>
+                </div>
+              </div>
 
-            <p>
-              Producem garnituri tehnice personalizate din cauciuc,
-              silicon, PTFE, fibră și alte materiale pentru aplicații
-              industriale, auto și echipamente speciale.
-            </p>
-
-            <div className="hero-buttons">
-
-              <Link
-                to="/produse"
-                className="btn primary"
-              >
-                Vezi produsele
-                <span>→</span>
-              </Link>
-
-              <Link
-                to="/contact"
-                className="btn secondary"
-              >
-                Cere o ofertă
-                <span>→</span>
-              </Link>
+              <div className="hero-feature">
+                <span>03</span>
+                <div>
+                  <strong>SOLUȚII INDUSTRIALE</strong>
+                  <small>Pentru aplicații diverse și speciale</small>
+                </div>
+              </div>
 
             </div>
 
           </div>
-        </div>
 
-        <div className="hero-bottom">
-          <span>GARSTAR SRL</span>
-          <span>GARNITURI • ETANȘĂRI • SOLUȚII TEHNICE</span>
         </div>
 
       </section>
@@ -104,14 +135,6 @@ function Home() {
                 și mediului de utilizare.
               </p>
 
-              <Link
-                to="/despre"
-                className="text-link"
-              >
-                Descoperă compania
-                <span>→</span>
-              </Link>
-
             </div>
 
           </div>
@@ -129,7 +152,6 @@ function Home() {
           <div className="section-top">
 
             <div>
-              <span className="section-number">01</span>
 
               <h2>
                 Ce oferim
@@ -148,10 +170,6 @@ function Home() {
 
             <article className="service-card">
 
-              <span className="service-number">
-                01
-              </span>
-
               <div className="service-icon">
                 ⚙
               </div>
@@ -169,10 +187,6 @@ function Home() {
 
 
             <article className="service-card">
-
-              <span className="service-number">
-                02
-              </span>
 
               <div className="service-icon">
                 ◇
@@ -193,10 +207,6 @@ function Home() {
 
             <article className="service-card">
 
-              <span className="service-number">
-                03
-              </span>
-
               <div className="service-icon">
                 ✓
               </div>
@@ -214,10 +224,6 @@ function Home() {
 
 
             <article className="service-card">
-
-              <span className="service-number">
-                04
-              </span>
 
               <div className="service-icon">
                 →
@@ -249,7 +255,6 @@ function Home() {
           <div className="section-top">
 
             <div>
-              <span className="section-number">02</span>
 
               <h2>
                 Categorii de produse
@@ -257,7 +262,7 @@ function Home() {
             </div>
 
             <Link
-              to="/produse"
+              to="/products"
               className="text-link"
             >
               Vezi toate produsele
@@ -270,56 +275,48 @@ function Home() {
           <div className="category-grid">
 
             <Link to="/produse" className="category-card">
-              <span>01</span>
               <h3>O-Ring</h3>
               <p>Garnituri toroidale pentru diverse aplicații.</p>
               <strong>→</strong>
             </Link>
 
             <Link to="/produse" className="category-card">
-              <span>02</span>
               <h3>Silicon</h3>
               <p>Garnituri pentru temperaturi și aplicații speciale.</p>
               <strong>→</strong>
             </Link>
 
             <Link to="/produse" className="category-card">
-              <span>03</span>
               <h3>PTFE</h3>
               <p>Materiale de etanșare pentru medii solicitante.</p>
               <strong>→</strong>
             </Link>
 
             <Link to="/produse" className="category-card">
-              <span>04</span>
               <h3>Cauciuc NBR</h3>
               <p>Soluții pentru aplicații industriale și tehnice.</p>
               <strong>→</strong>
             </Link>
 
             <Link to="/produse" className="category-card">
-              <span>05</span>
               <h3>EPDM</h3>
               <p>Garnituri pentru aplicații cu apă, abur și exterior.</p>
               <strong>→</strong>
             </Link>
 
             <Link to="/produse" className="category-card">
-              <span>06</span>
               <h3>Viton</h3>
               <p>Etanșări pentru temperaturi și medii agresive.</p>
               <strong>→</strong>
             </Link>
 
             <Link to="/produse" className="category-card">
-              <span>07</span>
               <h3>Garnituri metalice</h3>
               <p>Soluții pentru aplicații industriale exigente.</p>
               <strong>→</strong>
             </Link>
 
             <Link to="/produse" className="category-card">
-              <span>08</span>
               <h3>Garnituri hidraulice</h3>
               <p>Etanșări pentru sisteme hidraulice și pneumatice.</p>
               <strong>→</strong>
