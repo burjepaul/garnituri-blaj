@@ -1,684 +1,5 @@
 const categoryDetails = {
-  1: {
-    intro:
-      "din cauciuc Perbunan (NBR), etilenă-propilenă (EPDM), Viton (FPM), silicon, neopren etc.",
-
-    description: `
-      IneleO (oringuri) sunt elemente de etanșare recunoscute în toate domeniile. Referitor la conditiile de lucru pot fi utilizate diferite materiale.
-    `,
-
-    specifications: [
-      {
-        name: "IneleO",
-        value: "Se pot livra din materiale diferite (NBR/Viton/Silicon/EPDM/Neopren) cu orice dimensiune solicitată. \nDiametrul interior d₁ = 1-1000mm, diametrul torului d₂ = 1-15mm.",
-      },
-      {
-        name: "Șnur rotund",
-        value: "Vă putem livra șnur rotund din materialeleȘ NBR/Viton/Silicon/EPDM/Neopren cu diametrul Șnurului 1-30mm și lungimi nelimitate.",
-      },
-      {
-        name: "Trusă pentru confectionat inele \"O\"",
-        value: "Pentru executarea și montarea pe loc a inelelor O utilizate static, poate fi livrată o trusa de intervenție cu urmatorul conținut: șnur rotund NBR sau EPDM 14 marimi a 2m lungime, iar din Viton (FPM) la 1m lungime Ø1, 78/2/2, 4/2, 62/3/3, 53/4/4, 5/5/5, 33/5, 7/6/7(6,99)/8. Șablon pentru tăiat, cuțit, ruletă, adeziv pentru lipit.",
-      },
-    ],
-
-      images: [
-    {
-      src: "/images/products/shita-garnitura.png",
-      alt: "Schita garnitura"
-    },
-  ],
-
-    table: {
-      columns: [
-        "Denumire",
-        "Temperatură de lucru",
-        "Rezistență chimică și fizică",
-      ],
-
-      rows: [
-        [
-          "NBR (PERBUNAN) \ncauciuc nitrilic",
-          "-25°C +100°C",
-          "General utilizabil în hidraulică și pneumatică, până la 70°C, gaze, aer până la 90°C, uleiuri, substanțe alcaline, grăsimi, glicoli, alcooli, saramuri. \nRezistență bună la uzură.",
-        ],
-        [
-          "EPDM \netilenă-propilenă",
-          "-40°C +150°C",
-          "Acizi diluați, baze, alcooli, apă fierbinte, aburi și aer fără ulei până la 150°C. \nRezistent la interperii și la ozon.",
-
-        ],
-        [
-          "FPM(VITON) \nElastomeri fluorurați",
-          "-25°C +200°C",
-          "Uleiuri fierbinți, combustibili, solvenți aromatici, hidrocarburi, cloruri, diferiți acizi, vacuum înalt. \nRezistență mare la temperatură.",
-        ],
-        [
-          "MVQ \ncauciuc siliconic",
-          "-60°C +200°C",
-          "Aer cald până la 210°C, oxigen, apă până la 100°C, în industria alimentară și farmaceutică. \nRezistență mare la temperatură.",
-        ],
-        [
-          "CR (NEOPREN) \nCauciuc coroprenic",
-          "-40°C +100°C",
-          "Agenți frigorifici, substanțe alcaline, alcooli, grăsimi, glicoli, ozon, apă sărată. \nRezistent la îmbătrânire și intemperii.",
-        ],
-        [
-          "FEP/Viton \nFEP/Silicon \nCauciuc învelit",
-          "-15°C +205°C \n-60°C +205°C \n\n ",
-          "Acizi și baze concentrate, ozon, solvenți, uleiuri, aburi, apă fierbinte. \nRezitența chimica excelentă, alunecare bună/",
-        ],
-        [
-          "FEPM (KALREZ) \nCauciuc perfluoric",
-          "-30°C +260°C",
-          "Solvenți, acizi și baze concentrate, oxidanți puternici, clor, ozon, combustibili, saramuri. \nRezistență chimica și termică foarte mare(scump!).",
-        ],
-      ],
-    },
-},
-2: {
-  intro:
-    "Etanșări pe arbore pentru aplicații de rotație și translație, disponibile într-o gamă variată de profile, materiale și configurații pentru utilizări industriale.",
-
-  description: `Gama de etanșări pe arbore cuprinde manșete și inele destinate atât aplicațiilor cu mișcare de rotație, cât și celor cu mișcare de translație. Produsele sunt disponibile în diferite profile constructive și materiale, precum NBR, Viton, PTFE și poliuretan, pentru adaptarea la presiune, temperatură și viteza de lucru ale aplicației.
-
-Manșetele de rotație sunt utilizate pentru etanșarea arborilor rotativi și sunt disponibile în variante constructive precum A, AS, B, BS, C, CS, D5, ABS, VL și PO. Pentru aplicații speciale sunt disponibile și inelele V, inclusiv variantele VA și VS.
-
-Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, profile UA, UI, UM și UP, precum și garnituri V în set și inele raclor în diferite configurații constructive.`,
-
-
-  images: [
-      {
-        src: "/images/products/etansari-arbore-schita.jpg",
-        alt: "Schita garnitura"
-      },
-  ],
-
-  table: {
-    columns: [
-      "Categorie",
-      "Profil",
-      "Material",
-      "Presiune",
-      "Temperatură",
-      "Viteză",
-    ],
-
-    rows: [
-      [
-        "Simeringuri",
-        "A / AS / B / BS / C / CS / D5 / ABS",
-        "NBR + oțel / NBR întărit + oțel / Viton + W1.4301",
-        "0,5 bar / > 0,5 bar",
-        "NBR -40°C...+100°C / Viton -30°C...+170°C",
-        "12 / 36 m/s",
-      ],
-
-      [
-        "Simeringuri",
-        "VL",
-        "PTFE-Compound / Viton W1.4301 sau 1.4436 (316)",
-        "7 bar (20 bar)",
-        "-30°C...+200°C",
-        "30 m/s",
-      ],
-
-      [
-        "Simeringuri",
-        "PO",
-        "PTFE-Compound / Viton W1.4571 / cu Silicon",
-        "10 bar",
-        "-30°C...+200°C / -60°C...+200°C",
-        "15 m/s",
-      ],
-
-      [
-        "V Ring",
-        "VA / VS",
-        "NBR / Viton",
-        "0 bar",
-        "NBR -30°C...+100°C / Viton -25°C...+200°C",
-        "12 m/s",
-      ],
-
-      [
-        "Manșetă de translație U",
-        "U (K6/S6) / UA (K1) / UI (S1) / UM (S8) / UP",
-        "NBR / PU – Poliuretan",
-        "160 bar / 400 bar",
-        "-30°C...+100°C / -40°C...+100°C",
-        "0,5 m/s",
-      ],
-
-      [
-        "Garnituri V în set",
-        "SG7 / SG5 (S10-12) / S25-27",
-        "NBR pânzat / POM / PU / PTFE-Compound",
-        "400 bar / 315 bar",
-        "-30°C...+100°C / -200°C...+260°C",
-        "0,5 / 4 m/s",
-      ],
-
-      [
-        "Inel raclor",
-        "A / A1 / AM / AD / AV",
-        "NBR / PU – Poliuretan / Viton",
-        "0 bar",
-        "-30°C...+100°C / -20°C...+200°C",
-        "1 m/s",
-      ],
-    ],
-  },
-},
-3: {
-  intro:
-    "Șnururi universale de etanșare.",
-
-  description: `Se pot livra șnururi împletite din diferite materiale și combinații specifice, în functie de condițiile de mediu și caracteristicile tehnice. Distribuim la prețuri avantajoase șnururi MERKEL și PROPACK.`,
-
-
-  images: [
-      {
-        src: "/images/products/uniflon.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/valvochem.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/superflon.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/unitherm.jpg",
-        alt: "Schita garnitura"
-      },
-  ],
-
-  table: {
-    columns: [
-      "Tip șnur",
-      "Presiune",
-      "Temperatura",
-      "Ph",
-    ],
-
-    rows: [
-      [
-        "UNIFLON fibre aramidice teflonate cu lubrifiant",
-        "25bar (20m/s) 80bar (2m/s) 100bar(1,5m/s)",
-        "-100°C ... +260°C",
-        "2-12",
-      ],
-
-      [
-        "VALVOCHEM 100% PTFE/ teflon",
-        "35bar (5m/s) 500bar(2m/s) 250bar(1m/s)",
-        "-200°C ... +280°C",
-        "0-14",
-      ],
-
-      [
-        "Superflon PTFE/teflon cu grafit încorporat",
-        "30bar (25m/s) 250bar(2m/s) 100bar(2m/s)",
-        "-200°C ... +280°C",
-        "0-14",
-      ],
-
-      [
-        "UNITHERM Grafit expandat împletit",
-        "30bar (20m/s) 100bar(2m/s) 250bar(1,5m/s)",
-        `-200°C ... +450°C" (la aburi 650°C)`,
-        "0-14",
-      ],
-    ],
-  },
-},
-4: {
-  intro:
-    "Garnituri și seturi de inele din grafit.",
-
-  description: `Garnituri din grafit (UNITHERM) sunt inele din grafit flexibil pentru etanșare la axele precum și carcasele ventilelor și armăturilor.`,
-  advantages: [
-    "Rezistente la temperaturi și presiuni înalte",
-    "Permanent elastice",
-    "Fără întreținere la expoatare",
-    "Funcționare la ciclu cald-rece",
-    "Rezistență chimică excelentă",
-  ],
-  images: [
-      {
-        src: "/images/products/garnituri-si-seturi-schita.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/valvochem.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/superflon.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/unitherm.jpg",
-        alt: "Schita garnitura"
-      },
-  ],
-
-  table: {
-    columns: [
-      "",
-      "",
-      "",
-      "",
-    ],
-
-    rows: [
-      [
-        "UNITHERM 3004",
-        "Se compune din grafit pur expandat. Prin comprimare parțială într-o matriță fără lianți rezultă inele flexibile de etanșare, gata pentru montare.",
-        "Este o posibilitate sigură de etanșare la aproape toate mediile cu temperaturi de la –200°C până la +700°C ( 3000°C în mediu inert ) ca și presiuni maximale până la 1000 bar între inelele de cameră (set de inele tip 3300).",
-        "Își menține proprietățile sale fizice și la condiții extreme de exploatare, ca urmare viabilitatea etanșărilor poate să corespundă cu aceea a ventilelor.",
-      ],
-
-      [
-        "Rezistență chimică",
-        "Apă fierbinte, aburi până la 700°C",
-        "Uleiuri, termouleiuri, grăsimi, acizi (excepție:acid azotic, oleum) și baze ",
-        "Oxigen și hidrogen lichid, amoniac, freon, gaze, solvenți, coloranți",
-      ],
-
-      [
-        "Program de livrare ",
-        "Inele prepresate:  închise, debitate sau în set",
-        "Secțiuni: patrat, dreptunghiular,triunghiular, profilat special \ndimensiuni:  ø8mm până la ca.ø800mm",
-        "Densitate: 1,2 - 1,9g/cm³ (1,4 g/cm³ standard) \npuritate:       98% standard / 99,85% nuclear",
-      ],
-
-      [
-        "UNITHERM 3004-B (executare specială) ",
-        "Este o bandă flexibilă din grafit pur pt. întreținere.",
-        "Puritate:   99,8%; densitate:  1,1g/cm³ \nconținut de clorură liberă: <10 ppm",
-        "Grosime:   0,4mm \nlățime:      ¼“, ½“, 10,15,20,25mm",
-      ],
-    ],
-  },
-},
-5: {
-  description: "Garnituri plate din grafit rezistente la temperaturi mari și presiune înaltă pentru etanșarea suprafețelor plane la îmbinări cu flanșe",
-  applications: [
-    "Flanșe",
-    "Armături",
-    "Pompe",
-    "Cazane",
-    "Conducte",
-    "Țevi",
-  ],
-    advantages: [
-    "Rezistente la temperaturi mari",
-    "Rezistente la aproape toate substanțele chimice",
-    "Permanent elastice",
-    "Fără întreținere la exploatare",
-    "Funcționare la ciclu cald-rece",
-    "Rezistente la presiune înaltă",
-  ],
-  specifications: [
-    {
-      name: "Temperatură nominală",
-      value:
-        "-200°C ... +500°C",
-    },
-    {
-      name: "Temperatura la aburi",
-      value:
-        "-200°C ... +700°C",
-    },
-    {
-      name: "Temperatura ignifug până",
-      value:
-        "-200°C ... +900°C",
-    },
-    {
-      name: "Domeniu (pH)",
-      value: "0 - 14",
-    },
-    {
-      name: "Presiune UNITHERM 3012 (pmax)",
-      value:
-        "160 bar",
-    },
-    {
-      name: "Presiune UNITHERM 3013 (pmax)",
-      value:
-        "250 bar",
-    },
-    {
-      name: "Compresibilitate (max 100N/mm²) UNITHERM 3012",
-      value:
-        "50%",
-    },
-    {
-      name: "Compresibilitate (max 100N/mm²) UNITHERM 3013",
-      value:
-        "40%",
-    },
-    {
-      name: "Arcuire de reducere",
-      value:
-        "10 - 15 %",
-    },
-    {
-      name: "Rezistență nelimitată de presiune la 300°C",
-      value:
-        "48 N/mm²",
-    },
-  ],
-
-  
-  images: [
-      {
-        src: "/images/products/Garnituri-plate-schita.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/Garnituri-plate-schita2.jpg",
-        alt: "Schita garnitura"
-      }
-  ],
-
-  table: {
-    columns: [
-      "",
-      "",
-      "",
-      "",
-      "",
-    ],
-
-    rows: [
-      [
-        "UNITHERM 3012",
-        "Garnitură plată universală cu consolidare din tablă netedă inox W1.4401 (316) de 0,05mm grosime",
-        "Domeniu de presiune: \nPN 40 / p< 40 bar la suprafețe netede-plane \nPN 160 / p< 160 bar la sistem canelură/pană",
-        "Se distinge prin adaptare excelentă la flanșe brute, deteriorate și ușor deformate.",
-      ],
-
-      [
-        "UNITHERM 3013",
-        "Garnitură plată de presiune înaltă cu consolidare din tablă perforată inox W1.4401 (316) de 0,1mm grosime",
-        "Domeniu de presiune: \nPN 40 / p< 40 bar la suprafețe netede-plane \nPN 160 / p< 160 bar la sistem canelură/pană \nPN 250 / p< 250 bar la sistem canelură/pană",
-        "Se distinge prin adaptare excelentă la flanșe brute, deteriorate și ușor deformate.",
-        "Se poate executa cu bordură interioară și exterioară din inox W1.4571 (316L) de 0,15mm grosime.  (UNITHERM 3013-B cu bordură suplimentară interioare/ UNITHERM 3013-BE cu bordură suplimentară interioară+exterioară",
-      ],
-
-      [
-        "Program de livrare ",
-        "Garnituri conform desenelor beneficiarilor",
-        "Garnituri plate conform DIN, ANSI, API etc. cu grosimea 1; 1,5; 2 sau 3 mm",
-        "Garniturile cu grosimea de 3 și 4,5 mm precum și garniturile plate peste ø1000 mm vor fi executate din segmente laminate",
-        "Plăci de etanșare 1000 x 1000 mm cu grosimea 1; 1,5; 2 sau 3 mm",
-      ],
-    ],
-  },
-},
-6: {
-  intro: "Se compun din bandă înfăşurată din oţel inox cu umplutură din grafit etc. şi cu sau fără inel interior precum şi inel exterior de centrare.",
-  description: "Garniturile spirometalice se potexecuta conform normelor DIN;ANSI (ASME); API; BS etc.sau cu dimensiuni libere.Profilul special al spiralei garantează readucerea necesară laoscilaţii de temperatură şi deplasări mici ale flanşelor.Rugozitatea recomandată asuprafeţelor să fie 25-50 μm (Rt).",
-  applications: [
-    "Industria petrolieră şi chimică",
-    "Centrale energetice",
-    "Schimbători de căldură",
-    "Conducte şi cazane",
-    "Pompe şi ventile",
-  ],
-  specifications: [
-    {
-      name: "Temperatură maximală",
-      value:
-        "+550°C/ +700° aburi",
-    },
-    {
-      name: "Domeniu pH",
-      value:
-        "0 - 14",
-    },
-    {
-      name: "Presiune maximală",
-      value:
-        "320 bari",
-    },
-    {
-      name: "Umplutură",
-      value: "PTFE până la 250°C grafit până la 550°C standard ceramică până la 1000°",
-    },
-    {
-      name: "bandă înfăşurată şi inel interior",
-      value:
-        "W1.4301 (304)/ W1.4404 (316L) / W1.4306 (304L)/ W1.4541 (321)",
-    },
-    {
-      name: "inel exterior (centrare)",
-      value:
-        "oţel galvanizat sau inox",
-    },
-  ],
-
-  
-  images: [
-      {
-        src: "/images/products/garnituri-metalice-schita.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/garnituri-metalice-schita2.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/garnituri-metalice-schita3.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/garnituri-metalice-schita4.jpg",
-        alt: "Schita garnitura"
-      }
-  ],
-
-  table: {
-    columns: [
-      "",
-      "",
-      "",
-      "",
-      "",
-    ],
-
-    rows: [
-      [
-        "Formă tip SP1",
-        "Flanşă cu canal",
-        "La grosimea garniturii iniţiale de 4,5mm să rămînă de exemplu după montare(contact metalic flanşăpe flanşă) adîncimea canalui de 3,3±0,1mm.",
-      ],
-
-      [
-        "Formă tip SP2",
-        "Flanşă netedă",
-        "centrare a garniturilor şi protecţia la deformare prin inel exterior",
-      ],
-
-      [
-        "Formă tip SP2-IR",
-        "Flanşă cu adîncitură",
-        "Protecție a garniturilor la deformare radială,la temperatură şi medii agresive prin inel interior",
-      ],
-      [
-        "Formă tip SP3",
-        "Flanşă netedă",
-        "Centrare a garniturilor şi protecţia la deformare prin inel exterior",
-        "Protectie a garniturilor la deformare radială, la temperatură şi medii agresive prin inel interior",
-      ],
-      [
-        "Grosimi preferate",
-        "s - înainte de montare \ns2 - după montare",
-        "s(mm) \u00A0\u00A0\u00A0   s1(mm)  \u00A0\u00A0\u00A0  s2(mm) \n3,2 \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  2  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  2,3-2,5 \n4,5  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  3  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  3,2-3,4",
-      ],
-    ],
-  },
-},
-7: {
-  specifications: [
-    {
-      name: "Șnur răsucit ",
-      value:
-        "ø3 - ø50mm",
-    },
-    {
-      name: "Împletit pătrat",
-      value:
-        "4x4 - 60x60mm",
-    },
-    {
-      name: "Împletit dreptunghiular",
-      value:
-        "15x10 - 60x30mm",
-    },
-    {
-      name: "Împletit rotundr",
-      value: "ø4 - ø80mm",
-    },
-    {
-      name: "Bandă",
-      value:
-        "grosimi: 2-6mm lăţimi: 10-300",
-    },
-    {
-      name: "Țesătura fără și cu acoperire",
-      value:
-        "grosimi: 0,1-3mm lăţimi: 1m",
-    },
-    {
-      name: "SALTELE",
-      value:
-        "grosimi: 6 (¼“); 13 (½“); 19 (¾“); 25 (1“); 38 (1½“); 50mm (2“)/ lăţimi: 610; 1220mm/ densităţi: 96; 128; 160 kg/m³",
-    },
-  ],
-
-  
-  images: [
-      {
-        src: "/images/products/termoizolante-schita.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/termoizolante-schita2.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/termoizolante-schita3.jpg",
-        alt: "Schita garnitura"
-      },
-
-  ],
-
-  table: {
-    columns: [
-      "",
-      "",
-      "",
-      "",
-      "",
-    ],
-
-    rows: [
-      [
-        "Fibră de sticlă şi Silicat",
-      ],
-
-      [
-        "Date tehnice",
-        "GLAS 450",
-        "GLAS 700",
-        "GLAS 850",
-        "SILICAT",
-      ],
-
-      [
-        "Temperatură de lucru",
-        "450°C",
-        "700°C ",
-        "850°C ",
-        "1000°C ",
-      ],
-      [
-        "Temperatură max. pt. scurt timp",
-        "550°C",
-        "800°C",
-        "1000°C",
-        "1350°C",
-      ],
-      [
-        "Diametru al fibrelor",
-        "6-10 µm",
-        "6-10 µm",
-        "6 µm",
-        "6 µm",
-      ],
-      [
-        "Pierdere la recoacere",
-        "< 1,5%",
-        "< 3%",
-        "< 3%",
-        "2% min.",
-      ],
-      [
-        "Fibre ceramice",
-      ],
-      [
-        "Date tehnice",
-        "KF 1260",
-        "KF 1400",
-        "KF 1430Z",
-        "KF 1600",
-      ],
-      [
-        "Temperatură de lucru",
-        "1100°C",
-        "1250°C",
-        "1350°C ",
-        "1600°C",
-      ],
-      [
-        "Temperatură de clasificare",
-        "1260°C",
-        "1400°C",
-        "1430°C",
-        "1600°C",
-      ],
-      [
-        "Temperatură de topire",
-        "1730°C",
-        "1790°C",
-        "1790°C",
-        "2000°C",
-      ],
-      [
-        "Analisă chimică Al2O3/SiO2",
-        "48/52%",
-        "52/48%",
-        "37/48%",
-        "80/20%",
-      ],
-      [
-        "Pierdere la recoacere la \n1200°C după 24 h (%)",
-        "2,4%",
-        "2,0%",
-        "1,4%",
-        "0%",
-      ],
-    ],
-  },
-},
-8: {
+1: {
   images: [
       {
         src: "/images/products/curele-trapezoidale-schita.jpg",
@@ -694,10 +15,9 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
       },
 
   ],
-
-  table: {
+  tables: [{
     columns: [
-      "",
+      "CURELE TRAPEZOIDALE CLASICE   ISO 4183/84, DIN 2215, STAS 1164",
       "",
       "",
       "",
@@ -712,10 +32,6 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
     ],
 
     rows: [
-      [
-        "CURELE TRAPEZOIDALE CLASICE   ISO 4183/84, DIN 2215, STAS 1164",
-      ],
-
       [
         "Profil I (învelit) ",
         "5\n\u00A0",
@@ -815,9 +131,23 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
         "75",
         "80",
       ],
-      [
-        "CURELE TRAPEZOIDALE %NGUSTE ISO 4183/84, ISO 2790, DIN 7753, STAS 7192/2, RMA/MPT",
-      ],
+    ],
+  },
+  {
+    columns: [
+      "CURELE TRAPEZOIDALE ÎNGUSTE ISO 4183/84, ISO 2790, DIN 7753, STAS 7192/2, RMA/MPT",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+    rows: [
       [
         "Profil I (învelit)",
         "SPZ",
@@ -828,7 +158,6 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
         "3V",
         "5V",
         "8V",
-        "",
         "",
         "",
       ],
@@ -859,7 +188,7 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
         "13",
       ],
       [
-        "înălţimea curelelor h ",
+        "Înălţimea curelelor h ",
         "8",
         "10",
         "13",
@@ -910,11 +239,19 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
         "13",
         "18",
       ],
-      [
-        "CURELE VARIATOR ISO 1604, ISO 3410, DIN 7719",
-      ],
+    ],
+  },
+  {
+    columns: [
+      "CURELE VARIATOR ISO 1604, ISO 3410, DIN 7719",
+      "",
+      "",
+    ],
+    rows: [
       [
         "Profil II (flancuri deschise şi danturat prin formare)",
+        "",
+        ""
       ],
       [
         "13x5",
@@ -951,9 +288,16 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
         "41x13 ISO W 40",
         "",
       ],
-      [
-        "CURELE TRAPEZOIDALE SPECIALE ISO 5290; DIN 7722; ISO 9962; DIN 7867",
-      ],
+    ],
+  },
+  {
+    columns: [
+      "CURELE TRAPEZOIDALE SPECIALE ISO 5290; DIN 7722; ISO 9962; DIN 7867",
+      "",
+      "",
+      "",
+    ],
+    rows: [
       [
         "Curele hexagonale",
         "Curele multiple (Kraftband)",
@@ -998,8 +342,9 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
       ],
     ],
   },
+  ],
 },
-9: {
+2: {
   intro: "Se compun din Neopren și Poliuretan cu cordul de tracțiune Kevlar, oțel superior și fibră de sticlă.",
   description:"Straturi speciale de acoperire: Supergrip; Linatex; PVC profilat; PU; HV; Neo; Correx; Porol; Celloflex; PAR; Silicon; RP 400. Se livrează sub formă de curea închisă/deschisă și roți pentru curele dințate.",
   applications: [
@@ -1215,6 +560,696 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
   }
 ]
 },
+3: {
+    intro:
+      "din cauciuc Perbunan (NBR), etilenă-propilenă (EPDM), Viton (FPM), silicon, neopren etc.",
+
+    description: `
+      IneleO (oringuri) sunt elemente de etanșare recunoscute în toate domeniile. Referitor la conditiile de lucru pot fi utilizate diferite materiale.
+    `,
+
+    specifications: [
+      {
+        name: "IneleO",
+        value: "Se pot livra din materiale diferite (NBR/Viton/Silicon/EPDM/Neopren) cu orice dimensiune solicitată. \nDiametrul interior d₁ = 1-1000mm, diametrul torului d₂ = 1-15mm.",
+      },
+      {
+        name: "Șnur rotund",
+        value: "Vă putem livra șnur rotund din materialeleȘ NBR/Viton/Silicon/EPDM/Neopren cu diametrul Șnurului 1-30mm și lungimi nelimitate.",
+      },
+      {
+        name: "Trusă pentru confectionat inele \"O\"",
+        value: "Pentru executarea și montarea pe loc a inelelor O utilizate static, poate fi livrată o trusa de intervenție cu urmatorul conținut: șnur rotund NBR sau EPDM 14 marimi a 2m lungime, iar din Viton (FPM) la 1m lungime Ø1, 78/2/2, 4/2, 62/3/3, 53/4/4, 5/5/5, 33/5, 7/6/7(6,99)/8. Șablon pentru tăiat, cuțit, ruletă, adeziv pentru lipit.",
+      },
+    ],
+
+      images: [
+    {
+      src: "/images/products/shita-garnitura.png",
+      alt: "Schita garnitura"
+    },
+  ],
+
+    table: {
+      columns: [
+        "Denumire",
+        "Temperatură de lucru",
+        "Rezistență chimică și fizică",
+      ],
+
+      rows: [
+        [
+          "NBR (PERBUNAN) \ncauciuc nitrilic",
+          "-25°C +100°C",
+          "General utilizabil în hidraulică și pneumatică, până la 70°C, gaze, aer până la 90°C, uleiuri, substanțe alcaline, grăsimi, glicoli, alcooli, saramuri. \nRezistență bună la uzură.",
+        ],
+        [
+          "EPDM \netilenă-propilenă",
+          "-40°C +150°C",
+          "Acizi diluați, baze, alcooli, apă fierbinte, aburi și aer fără ulei până la 150°C. \nRezistent la interperii și la ozon.",
+
+        ],
+        [
+          "FPM(VITON) \nElastomeri fluorurați",
+          "-25°C +200°C",
+          "Uleiuri fierbinți, combustibili, solvenți aromatici, hidrocarburi, cloruri, diferiți acizi, vacuum înalt. \nRezistență mare la temperatură.",
+        ],
+        [
+          "MVQ \ncauciuc siliconic",
+          "-60°C +200°C",
+          "Aer cald până la 210°C, oxigen, apă până la 100°C, în industria alimentară și farmaceutică. \nRezistență mare la temperatură.",
+        ],
+        [
+          "CR (NEOPREN) \nCauciuc coroprenic",
+          "-40°C +100°C",
+          "Agenți frigorifici, substanțe alcaline, alcooli, grăsimi, glicoli, ozon, apă sărată. \nRezistent la îmbătrânire și intemperii.",
+        ],
+        [
+          "FEP/Viton \nFEP/Silicon \nCauciuc învelit",
+          "-15°C +205°C \n-60°C +205°C \n\n ",
+          "Acizi și baze concentrate, ozon, solvenți, uleiuri, aburi, apă fierbinte. \nRezitența chimica excelentă, alunecare bună/",
+        ],
+        [
+          "FEPM (KALREZ) \nCauciuc perfluoric",
+          "-30°C +260°C",
+          "Solvenți, acizi și baze concentrate, oxidanți puternici, clor, ozon, combustibili, saramuri. \nRezistență chimica și termică foarte mare(scump!).",
+        ],
+      ],
+    },
+},
+4: {
+  intro:
+    "Etanșări pe arbore pentru aplicații de rotație și translație, disponibile într-o gamă variată de profile, materiale și configurații pentru utilizări industriale.",
+
+  description: `Gama de etanșări pe arbore cuprinde manșete și inele destinate atât aplicațiilor cu mișcare de rotație, cât și celor cu mișcare de translație. Produsele sunt disponibile în diferite profile constructive și materiale, precum NBR, Viton, PTFE și poliuretan, pentru adaptarea la presiune, temperatură și viteza de lucru ale aplicației.
+
+Manșetele de rotație sunt utilizate pentru etanșarea arborilor rotativi și sunt disponibile în variante constructive precum A, AS, B, BS, C, CS, D5, ABS, VL și PO. Pentru aplicații speciale sunt disponibile și inelele V, inclusiv variantele VA și VS.
+
+Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, profile UA, UI, UM și UP, precum și garnituri V în set și inele raclor în diferite configurații constructive.`,
+
+
+  images: [
+      {
+        src: "/images/products/etansari-arbore-schita.jpg",
+        alt: "Schita garnitura"
+      },
+  ],
+
+  table: {
+    columns: [
+      "Categorie",
+      "Profil",
+      "Material",
+      "Presiune",
+      "Temperatură",
+      "Viteză",
+    ],
+
+    rows: [
+      [
+        "Simeringuri",
+        "A / AS / B / BS / C / CS / D5 / ABS",
+        "NBR + oțel / NBR întărit + oțel / Viton + W1.4301",
+        "0,5 bar / > 0,5 bar",
+        "NBR -40°C...+100°C / Viton -30°C...+170°C",
+        "12 / 36 m/s",
+      ],
+
+      [
+        "Simeringuri",
+        "VL",
+        "PTFE-Compound / Viton W1.4301 sau 1.4436 (316)",
+        "7 bar (20 bar)",
+        "-30°C...+200°C",
+        "30 m/s",
+      ],
+
+      [
+        "Simeringuri",
+        "PO",
+        "PTFE-Compound / Viton W1.4571 / cu Silicon",
+        "10 bar",
+        "-30°C...+200°C / -60°C...+200°C",
+        "15 m/s",
+      ],
+
+      [
+        "V Ring",
+        "VA / VS",
+        "NBR / Viton",
+        "0 bar",
+        "NBR -30°C...+100°C / Viton -25°C...+200°C",
+        "12 m/s",
+      ],
+
+      [
+        "Manșetă de translație U",
+        "U (K6/S6) / UA (K1) / UI (S1) / UM (S8) / UP",
+        "NBR / PU – Poliuretan",
+        "160 bar / 400 bar",
+        "-30°C...+100°C / -40°C...+100°C",
+        "0,5 m/s",
+      ],
+
+      [
+        "Garnituri V în set",
+        "SG7 / SG5 (S10-12) / S25-27",
+        "NBR pânzat / POM / PU / PTFE-Compound",
+        "400 bar / 315 bar",
+        "-30°C...+100°C / -200°C...+260°C",
+        "0,5 / 4 m/s",
+      ],
+
+      [
+        "Inel raclor",
+        "A / A1 / AM / AD / AV",
+        "NBR / PU – Poliuretan / Viton",
+        "0 bar",
+        "-30°C...+100°C / -20°C...+200°C",
+        "1 m/s",
+      ],
+    ],
+  },
+},
+5: {
+  intro:
+    "Șnururi universale de etanșare.",
+
+  description: `Se pot livra șnururi împletite din diferite materiale și combinații specifice, în functie de condițiile de mediu și caracteristicile tehnice. Distribuim la prețuri avantajoase șnururi MERKEL și PROPACK.`,
+
+
+  images: [
+      {
+        src: "/images/products/uniflon.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/valvochem.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/superflon.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/unitherm.jpg",
+        alt: "Schita garnitura"
+      },
+  ],
+
+  tables: [
+    {
+    columns: [
+      "Tip șnur",
+      "Presiune pompe rotative",
+      "Presiune pompe cu piston",
+      "Presiune robineți",
+      "Temperatura",
+      "Ph",
+    ],
+
+    rows: [
+      [
+        "UNIFLON fibre aramidice teflonate cu lubrifiant",
+        "25bar (20m/s)",
+        "80bar (2m/s)",
+        "100bar(1,5m/s)",
+        "-100°C ... +260°C",
+        "2-12",
+      ],
+      
+      [
+        "VALVOCHEM 100% PTFE/ teflon",
+        "35bar (5m/s)",
+        "500bar(2m/s)",
+        "250bar(1m/s)",
+        "-200°C ... +280°C",
+        "0-14",
+      ],
+      
+      [
+        "Superflon PTFE/teflon cu grafit încorporat",
+        "30bar (25m/s)",
+        "250bar(2m/s)",
+        "100bar(2m/s)",
+        "-200°C ... +280°C",
+        "0-14",
+      ],
+      
+      [
+        "UNITHERM Grafit expandat împletit",
+        "30bar (20m/s)",
+        "100bar(2m/s)",
+        "250bar(1,5m/s)",
+        `-200°C ... +450°C" (la aburi 650°C)`,
+        "0-14",
+      ],
+    ],
+  },]
+},
+6: {
+  intro:
+  "Garnituri și seturi de inele din grafit.",
+  
+  description: `Garnituri din grafit (UNITHERM) sunt inele din grafit flexibil pentru etanșare la axele precum și carcasele ventilelor și armăturilor.`,
+  advantages: [
+    "Rezistente la temperaturi și presiuni înalte",
+    "Permanent elastice",
+    "Fără întreținere la expoatare",
+    "Funcționare la ciclu cald-rece",
+    "Rezistență chimică excelentă",
+  ],
+  images: [
+      {
+        src: "/images/products/garnituri-si-seturi-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/valvochem.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/superflon.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/unitherm.jpg",
+        alt: "Schita garnitura"
+      },
+  ],
+
+  table: {
+    columns: [
+      "",
+      "",
+      "",
+      "",
+    ],
+
+    rows: [
+      [
+        "UNITHERM 3004",
+        "Se compune din grafit pur expandat. Prin comprimare parțială într-o matriță fără lianți rezultă inele flexibile de etanșare, gata pentru montare.",
+        "Este o posibilitate sigură de etanșare la aproape toate mediile cu temperaturi de la –200°C până la +700°C ( 3000°C în mediu inert ) ca și presiuni maximale până la 1000 bar între inelele de cameră (set de inele tip 3300).",
+        "Își menține proprietățile sale fizice și la condiții extreme de exploatare, ca urmare viabilitatea etanșărilor poate să corespundă cu aceea a ventilelor.",
+      ],
+
+      [
+        "Rezistență chimică",
+        "Apă fierbinte, aburi până la 700°C",
+        "Uleiuri, termouleiuri, grăsimi, acizi (excepție:acid azotic, oleum) și baze ",
+        "Oxigen și hidrogen lichid, amoniac, freon, gaze, solvenți, coloranți",
+      ],
+
+      [
+        "Program de livrare ",
+        "Inele prepresate:  închise, debitate sau în set",
+        "Secțiuni: patrat, dreptunghiular,triunghiular, profilat special \ndimensiuni:  ø8mm până la ca.ø800mm",
+        "Densitate: 1,2 - 1,9g/cm³ (1,4 g/cm³ standard) \npuritate:       98% standard / 99,85% nuclear",
+      ],
+
+      [
+        "UNITHERM 3004-B (executare specială) ",
+        "Este o bandă flexibilă din grafit pur pt. întreținere.",
+        "Puritate:   99,8%; densitate:  1,1g/cm³ \nconținut de clorură liberă: <10 ppm",
+        "Grosime:   0,4mm \nlățime:      ¼“, ½“, 10,15,20,25mm",
+      ],
+    ],
+  },
+},
+7: {
+  description: "Garnituri plate din grafit rezistente la temperaturi mari și presiune înaltă pentru etanșarea suprafețelor plane la îmbinări cu flanșe",
+  applications: [
+    "Flanșe",
+    "Armături",
+    "Pompe",
+    "Cazane",
+    "Conducte",
+    "Țevi",
+  ],
+    advantages: [
+    "Rezistente la temperaturi mari",
+    "Rezistente la aproape toate substanțele chimice",
+    "Permanent elastice",
+    "Fără întreținere la exploatare",
+    "Funcționare la ciclu cald-rece",
+    "Rezistente la presiune înaltă",
+  ],
+  specifications: [
+    {
+      name: "Temperatură nominală",
+      value:
+        "-200°C ... +500°C",
+    },
+    {
+      name: "Temperatura la aburi",
+      value:
+        "-200°C ... +700°C",
+    },
+    {
+      name: "Temperatura ignifug până",
+      value:
+        "-200°C ... +900°C",
+    },
+    {
+      name: "Domeniu (pH)",
+      value: "0 - 14",
+    },
+    {
+      name: "Presiune UNITHERM 3012 (pmax)",
+      value:
+        "160 bar",
+    },
+    {
+      name: "Presiune UNITHERM 3013 (pmax)",
+      value:
+        "250 bar",
+    },
+    {
+      name: "Compresibilitate (max 100N/mm²) UNITHERM 3012",
+      value:
+        "50%",
+    },
+    {
+      name: "Compresibilitate (max 100N/mm²) UNITHERM 3013",
+      value:
+        "40%",
+    },
+    {
+      name: "Arcuire de reducere",
+      value:
+        "10 - 15 %",
+    },
+    {
+      name: "Rezistență nelimitată de presiune la 300°C",
+      value:
+        "48 N/mm²",
+    },
+  ],
+
+  
+  images: [
+      {
+        src: "/images/products/Garnituri-plate-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/Garnituri-plate-schita2.jpg",
+        alt: "Schita garnitura"
+      }
+  ],
+
+  table: {
+    columns: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+
+    rows: [
+      [
+        "UNITHERM 3012",
+        "Garnitură plată universală cu consolidare din tablă netedă inox W1.4401 (316) de 0,05mm grosime",
+        "Domeniu de presiune: \nPN 40 / p< 40 bar la suprafețe netede-plane \nPN 160 / p< 160 bar la sistem canelură/pană",
+        "Se distinge prin adaptare excelentă la flanșe brute, deteriorate și ușor deformate.",
+      ],
+
+      [
+        "UNITHERM 3013",
+        "Garnitură plată de presiune înaltă cu consolidare din tablă perforată inox W1.4401 (316) de 0,1mm grosime",
+        "Domeniu de presiune: \nPN 40 / p< 40 bar la suprafețe netede-plane \nPN 160 / p< 160 bar la sistem canelură/pană \nPN 250 / p< 250 bar la sistem canelură/pană",
+        "Se distinge prin adaptare excelentă la flanșe brute, deteriorate și ușor deformate.",
+        "Se poate executa cu bordură interioară și exterioară din inox W1.4571 (316L) de 0,15mm grosime.  (UNITHERM 3013-B cu bordură suplimentară interioare/ UNITHERM 3013-BE cu bordură suplimentară interioară+exterioară",
+      ],
+
+      [
+        "Program de livrare ",
+        "Garnituri conform desenelor beneficiarilor",
+        "Garnituri plate conform DIN, ANSI, API etc. cu grosimea 1; 1,5; 2 sau 3 mm",
+        "Garniturile cu grosimea de 3 și 4,5 mm precum și garniturile plate peste ø1000 mm vor fi executate din segmente laminate",
+        "Plăci de etanșare 1000 x 1000 mm cu grosimea 1; 1,5; 2 sau 3 mm",
+      ],
+    ],
+  },
+},
+8: {
+  intro: "Se compun din bandă înfăşurată din oţel inox cu umplutură din grafit etc. şi cu sau fără inel interior precum şi inel exterior de centrare.",
+  description: "Garniturile spirometalice se potexecuta conform normelor DIN;ANSI (ASME); API; BS etc.sau cu dimensiuni libere.Profilul special al spiralei garantează readucerea necesară laoscilaţii de temperatură şi deplasări mici ale flanşelor.Rugozitatea recomandată asuprafeţelor să fie 25-50 μm (Rt).",
+  applications: [
+    "Industria petrolieră şi chimică",
+    "Centrale energetice",
+    "Schimbători de căldură",
+    "Conducte şi cazane",
+    "Pompe şi ventile",
+  ],
+  specifications: [
+    {
+      name: "Temperatură maximală",
+      value:
+        "+550°C/ +700° aburi",
+    },
+    {
+      name: "Domeniu pH",
+      value:
+        "0 - 14",
+    },
+    {
+      name: "Presiune maximală",
+      value:
+        "320 bari",
+    },
+    {
+      name: "Umplutură",
+      value: "PTFE până la 250°C grafit până la 550°C standard ceramică până la 1000°",
+    },
+    {
+      name: "bandă înfăşurată şi inel interior",
+      value:
+        "W1.4301 (304)/ W1.4404 (316L) / W1.4306 (304L)/ W1.4541 (321)",
+    },
+    {
+      name: "inel exterior (centrare)",
+      value:
+        "oţel galvanizat sau inox",
+    },
+  ],
+
+  
+  images: [
+      {
+        src: "/images/products/garnituri-metalice-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/garnituri-metalice-schita2.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/garnituri-metalice-schita3.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/garnituri-metalice-schita4.jpg",
+        alt: "Schita garnitura"
+      }
+  ],
+
+  table: {
+    columns: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+
+    rows: [
+      [
+        "Formă tip SP1",
+        "Flanşă cu canal",
+        "La grosimea garniturii iniţiale de 4,5mm să rămînă de exemplu după montare(contact metalic flanşăpe flanşă) adîncimea canalui de 3,3±0,1mm.",
+      ],
+
+      [
+        "Formă tip SP2",
+        "Flanşă netedă",
+        "centrare a garniturilor şi protecţia la deformare prin inel exterior",
+      ],
+
+      [
+        "Formă tip SP2-IR",
+        "Flanşă cu adîncitură",
+        "Protecție a garniturilor la deformare radială,la temperatură şi medii agresive prin inel interior",
+      ],
+      [
+        "Formă tip SP3",
+        "Flanşă netedă",
+        "Centrare a garniturilor şi protecţia la deformare prin inel exterior",
+        "Protectie a garniturilor la deformare radială, la temperatură şi medii agresive prin inel interior",
+      ],
+      [
+        "Grosimi preferate",
+        "s - înainte de montare \ns2 - după montare",
+        "s(mm) \u00A0\u00A0\u00A0   s1(mm)  \u00A0\u00A0\u00A0  s2(mm) \n3,2 \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  2  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  2,3-2,5 \n4,5  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  3  \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0  3,2-3,4",
+      ],
+    ],
+  },
+},
+9: {
+  specifications: [
+    {
+      name: "Șnur răsucit ",
+      value:
+        "ø3 - ø50mm",
+    },
+    {
+      name: "Împletit pătrat",
+      value:
+        "4x4 - 60x60mm",
+    },
+    {
+      name: "Împletit dreptunghiular",
+      value:
+        "15x10 - 60x30mm",
+    },
+    {
+      name: "Împletit rotundr",
+      value: "ø4 - ø80mm",
+    },
+    {
+      name: "Bandă",
+      value:
+        "grosimi: 2-6mm lăţimi: 10-300",
+    },
+    {
+      name: "Țesătura fără și cu acoperire",
+      value:
+        "grosimi: 0,1-3mm lăţimi: 1m",
+    },
+    {
+      name: "SALTELE",
+      value:
+        "grosimi: 6 (¼“); 13 (½“); 19 (¾“); 25 (1“); 38 (1½“); 50mm (2“)/ lăţimi: 610; 1220mm/ densităţi: 96; 128; 160 kg/m³",
+    },
+  ],
+
+  
+  images: [
+      {
+        src: "/images/products/termoizolante-schita.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/termoizolante-schita2.jpg",
+        alt: "Schita garnitura"
+      },
+      {
+        src: "/images/products/termoizolante-schita3.jpg",
+        alt: "Schita garnitura"
+      },
+
+  ],
+
+  table: {
+    columns: [
+      "",
+      "",
+      "",
+      "",
+      "",
+    ],
+
+    rows: [
+      [
+        "Fibră de sticlă şi Silicat",
+      ],
+
+      [
+        "Date tehnice",
+        "GLAS 450",
+        "GLAS 700",
+        "GLAS 850",
+        "SILICAT",
+      ],
+
+      [
+        "Temperatură de lucru",
+        "450°C",
+        "700°C ",
+        "850°C ",
+        "1000°C ",
+      ],
+      [
+        "Temperatură max. pt. scurt timp",
+        "550°C",
+        "800°C",
+        "1000°C",
+        "1350°C",
+      ],
+      [
+        "Diametru al fibrelor",
+        "6-10 µm",
+        "6-10 µm",
+        "6 µm",
+        "6 µm",
+      ],
+      [
+        "Pierdere la recoacere",
+        "< 1,5%",
+        "< 3%",
+        "< 3%",
+        "2% min.",
+      ],
+      [
+        "Fibre ceramice",
+      ],
+      [
+        "Date tehnice",
+        "KF 1260",
+        "KF 1400",
+        "KF 1430Z",
+        "KF 1600",
+      ],
+      [
+        "Temperatură de lucru",
+        "1100°C",
+        "1250°C",
+        "1350°C ",
+        "1600°C",
+      ],
+      [
+        "Temperatură de clasificare",
+        "1260°C",
+        "1400°C",
+        "1430°C",
+        "1600°C",
+      ],
+      [
+        "Temperatură de topire",
+        "1730°C",
+        "1790°C",
+        "1790°C",
+        "2000°C",
+      ],
+      [
+        "Analisă chimică Al2O3/SiO2",
+        "48/52%",
+        "52/48%",
+        "37/48%",
+        "80/20%",
+      ],
+      [
+        "Pierdere la recoacere la \n1200°C după 24 h (%)",
+        "2,4%",
+        "2,0%",
+        "1,4%",
+        "0%",
+      ],
+    ],
+  },
+},
 10: {
   description:"Straturi speciale de acoperire: Supergrip; Linatex; PVC profilat; PU; HV; Neo; Correx; Porol; Celloflex; PAR; Silicon; RP 400. Se livrează sub formă de curea închisă/deschisă și roți pentru curele dințate.",
   applications: [
@@ -1297,303 +1332,6 @@ Pentru aplicațiile cu mișcare de translație sunt disponibile manșete U, prof
     ],
   },
 ]
-},
-11: {
-  applications: [
-    "Bandă transportoară",
-    "Curea de antrenare (la forţele mai mici)",
-  ],
-  specifications: [
-    {
-      name: "Material:",
-      value:
-        "poliuretan sau poliester",
-    },
-    {
-      name: "Duritate:",
-      value:
-        "75°/ 80°/ 85°/ 90°/ 100° Shore A",
-    },
-    {
-      name: "Cord de tracţiune:",
-      value:
-        "cu şi fără cord din Kevlar, Poliester, oţel",
-    },
-    {
-      name: "Temperatură la PU:",
-      value:
-        "-30°C / +60°C (pt. scurt timp 80°C)",
-    },
-    {
-      name: "Temperatură la PE:",
-      value:
-        "-20°C / +80°C (pt. scurt timp 100°C)",
-    },
-    {
-      name: "Viteză maximă:",
-      value:
-        "ca. 15m/s la 85°Shore A",
-    },
-    {
-      name: "Rezistență la tracțiune:",
-      value:
-        "13-50 daN/cm² (de ex.:18 daN/cm² la 85°Shore A)",
-    },
-    {
-      name: "Pretensionarea curelelor:",
-      value:
-        "2% - 8% (100° Shore A ca. 2-3%/ 80° Shore A ca.7%)",
-    },
-    {
-      name: "Rezistență chimică:",
-      value:
-        "da/ ozon; hidrocarburi; ulei; grăsimi",
-    },
-    {
-      name: "Rezistență chimică:",
-      value:
-        "nu/ acizi concentraţi; cetone; hidrocarburi clorate şi nitrate",
-    },
-    {
-      name: "Forme de livrare",
-      value:
-        "-Curele închise fără sfârşit:  la bucate \n-Curele deschise:                 la metru\n -Se pot livra şi sculele sau instalaţiile complete pentru îmbinarea curelelor!",
-    },
-],
-
-  images: [
-      {
-        src: "/images/products/curele-din-plastic3.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/curele-din-plastic.jpg",
-        alt: "Schita garnitura"
-      },
-      {
-        src: "/images/products/curele-din-plastic2.jpg",
-        alt: "Schita garnitura"
-      },
-  ],
-},
-12: {
-  intro:
-    "Țesături metalice pentru cernere, filtrare, separare și serigrafie, precum și tablă perforată pentru aplicații industriale.",
-
-  description: `Gama de produse cuprinde țesături metalice și site pentru cernere, filtrare, separare și serigrafie, realizate într-o varietate de ochiuri, diametre de sârmă și materiale.
-
-Țesăturile pot fi executate în diferite variante de împletire, inclusiv țesătură pânză, țesătură netedă cu ochiuri pătrate și alte configurații pentru aplicații speciale. În funcție de necesități, sunt disponibile și variante cu ochiuri foarte lungi, precum și țesături pentru aplicații de filtrare și serigrafie.
-
-Pentru aplicațiile de cernere și separare sunt disponibile și table perforate cu diferite forme și dispuneri ale perforațiilor, inclusiv găuri circulare, pătrate, alungite și dreptunghiulare.`,
-
-  applications: [
-    "Cernere și clasificare",
-    "Filtrare industrială",
-    "Separarea materialelor",
-    "Serigrafie",
-    "Industria minieră",
-    "Industria alimentară",
-    "Industria chimică",
-    "Industria farmaceutică",
-    "Construcții și instalații industriale",
-    "Utilaje și echipamente de procesare",
-  ],
-
-  advantages: [
-    "Gamă variată de ochiuri și diametre de sârmă",
-    "Diferite tipuri de țesătură și împletire",
-    "Execuții pentru filtrare și cernere de precizie",
-    "Disponibilitate în materiale metalice diferite",
-    "Posibilitatea utilizării pentru aplicații speciale",
-    "Table perforate cu forme variate ale găurilor",
-  ],
-
-  specifications: [
-    {
-      name: "Tipuri de țesătură",
-      value:
-        "Țesătură pânză, țesătură netedă cu ochiuri pătrate și alte variante speciale",
-    },
-    {
-      name: "Diametrul sârmei",
-      value: "0,025 – 3 mm",
-    },
-    {
-      name: "Materiale",
-      value:
-        "Cupru, alamă, oțel, oțel zincat, inox refractar, nichel, titan și aliaje speciale",
-    },
-    {
-      name: "Lățimea ochiurilor",
-      value: "0,02 – 50 mm",
-    },
-    {
-      name: "Lățimea țesăturii",
-      value: "Până la 3000 mm",
-    },
-    {
-      name: "Finețea filtrului",
-      value: "Până la 0,005 mm, în funcție de aplicație",
-    },
-    {
-      name: "Tipuri tablă perforată",
-      value:
-        "Găuri circulare, pătrate, alungite și dreptunghiulare",
-    },
-  ],
-
-  images: [
-    {
-      src: "/images/products/tesaturi-tehnice.jpg",
-      alt:
-        "Țesături metalice pentru cernere, filtrare, separare și tablă perforată",
-    },
-    {
-      src: "/images/products/metode-tesere.jpg",
-      alt:
-        "Țesături metalice pentru cernere, filtrare, separare și tablă perforată",
-    },
-    {
-      src: "/images/products/metode-tesere-schita2.jpg",
-      alt:
-        "Țesături metalice pentru cernere, filtrare, separare și tablă perforată",
-    },
-    {
-      src: "/images/products/metode-tesere-schita3.jpg",
-      alt:
-        "Țesături metalice pentru cernere, filtrare, separare și tablă perforată",
-    },
-  ],
-
-  tables: [
-    {
-      title: "ȚESĂTURI PENTRU CERNERE, FILTRARE ȘI SEPARARE",
-
-      columns: [
-        "Caracteristică",
-        "Domeniu / Variante",
-      ],
-
-      rows: [
-        [
-          "Tip țesătură",
-          "Țesătură pânză",
-        ],
-        [
-          "Ochiuri",
-          "Ochiuri pătrate și alte configurații",
-        ],
-        [
-          "Diametrul sârmei",
-          "0,025 – 3 mm",
-        ],
-        [
-          "Lățimea ochiurilor",
-          "0,02 – 50 mm",
-        ],
-        [
-          "Lățimea țesăturii",
-          "Până la 3000 mm",
-        ],
-        [
-          "Finețea filtrului",
-          "Până la 0,005 mm",
-        ],
-      ],
-    },
-
-    {
-      title: "MATERIALE DISPONIBILE",
-
-      columns: [
-        "Material",
-        "Utilizare / Observații",
-      ],
-
-      rows: [
-        [
-          "Cupru",
-          "Aplicații speciale și filtrare",
-        ],
-        [
-          "Alamă",
-          "Țesături pentru aplicații industriale",
-        ],
-        [
-          "Oțel",
-          "Cernere, separare și aplicații industriale",
-        ],
-        [
-          "Oțel zincat",
-          "Aplicații unde este necesară protecția împotriva coroziunii",
-        ],
-        [
-          "Inox refractar",
-          "Aplicații la temperaturi ridicate",
-        ],
-        [
-          "Nichel",
-          "Aplicații industriale speciale",
-        ],
-        [
-          "Titan",
-          "Aplicații speciale cu cerințe ridicate",
-        ],
-      ],
-    },
-
-    {
-      title: "TABLĂ PERFORATĂ PENTRU CERNERE ȘI SEPARARE",
-
-      columns: [
-        "Tip perforație",
-        "Descriere",
-      ],
-
-      rows: [
-        [
-          "Găură circulară",
-          "Perforații circulare dispuse uniform",
-        ],
-        [
-          "Găură pătrată",
-          "Perforații pătrate pentru aplicații de separare",
-        ],
-        [
-          "Găură alungită",
-          "Perforații alungite pentru aplicații speciale",
-        ],
-        [
-          "Găură dreptunghiulară",
-          "Perforații dreptunghiulare pentru diferite configurații de filtrare",
-        ],
-      ],
-    },
-
-    {
-      title: "CARACTERISTICI ALE TABLEI PERFORATE",
-
-      columns: [
-        "Parametru",
-        "Descriere",
-      ],
-
-      rows: [
-        [
-          "Suprafață deschisă",
-          "Procentul suprafeței ocupate de perforații",
-        ],
-        [
-          "Dispunere perforații",
-          "În funcție de configurația solicitată",
-        ],
-        [
-          "Formă perforații",
-          "Circulară, pătrată, alungită sau dreptunghiulară",
-        ],
-      ],
-    },
-  ],
 },
   // până la categoria 17
 };
