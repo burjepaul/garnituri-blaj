@@ -1,18 +1,87 @@
 import { Link, useParams } from "react-router-dom";
-import { useState } from "react";
-import products from "../../data/productsData";
-import categoryDetails from "../../data/categoryDetails";
+import { useState, useEffect } from "react";
+import { fetchProductsData } from "../../data/fetchProductsData";
 import "./ProductDetails.css";
+
 
 function ProductDetails() {
   const { productId } = useParams();
   const [currentImage, setCurrentImage] = useState(0);
+
+  const [products, setProducts] = useState([]);
+  const [categoryDetails, setCategoryDetails] = useState({});
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadData() {
+      try {
+        const data = await fetchProductsData();
+
+        if (!cancelled) {
+          setProducts(data.products);
+          setCategoryDetails(data.categoryDetails);
+        }
+      } catch (err) {
+        if (!cancelled) {
+          setError(err.message || "Eroare la încărcarea datelor.");
+        }
+      } finally {
+        if (!cancelled) {
+          setLoading(false);
+        }
+      }
+    }
+
+    loadData();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const product = products.find(
     (item) => String(item.id) === String(productId)
   );
 
   const details = categoryDetails[productId];
+
+  if (loading) {
+    return (
+      <main className="product-details-page">
+        <p>Se încarcă datele produsului...</p>
+      </main>
+    );
+  }
+
+  if (error) {
+    return (
+      <main className="product-details-page">
+        <h1>Datele nu au putut fi încărcate</h1>
+        <p>{error}</p>
+        <button onClick={() => window.location.reload()}>
+          Încearcă din nou
+        </button>
+      </main>
+    );
+  }
+
+  if (!product || !details) {
+    return (
+      <main className="product-details-page">
+        <h1>Produsul nu a fost găsit</h1>
+        <Link to="/produse">
+          ← Înapoi la produse
+        </Link>
+      </main>
+    );
+  }
+
+  // Păstrează aici restul codului existent,
+  // începând cu: let sectionNumber = 0;
+
 
   if (!product || !details) {
     return (
