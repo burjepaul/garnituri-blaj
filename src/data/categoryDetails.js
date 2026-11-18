@@ -76,7 +76,7 @@ const categoryDetails = {
         "40",
       ],
       [
-        "%nălţimea curelelor h ",
+        "Înălţimea curelelor h ",
         "3",
         "4",
         "5",

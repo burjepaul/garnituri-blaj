@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     title: "CURELE TRAPEZOIDALE",
-    description: "trapezoidale, dințate, late, rotunde, profilate din cauciuc și materiale plastice",
+    description: "Trapezoidale, dințate, late, rotunde, profilate din cauciuc și materiale plastice",
     image: "/images/products/curea-trapezoidala.jpg",
     discount: false,
   },
