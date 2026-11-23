@@ -16,7 +16,7 @@ const grupa = {
   "speciale": "Speciale"
 };
 
-export default function CategorieClasica() {
+export default function SubCategorieCureleTrapezoidale() {
   const { categorie } = useParams();
 
   const grupaSelectata = grupa[categorie];

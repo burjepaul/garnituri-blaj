@@ -22,19 +22,12 @@ const categoryDetails = {
       "",
       "",
       "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
     ],
 
     rows: [
       [
         "Profil I (învelit) ",
-        "5\n\u00A0",
+        "51\n\u00A0",
         "6\nY ",
         "8\n\u00A0",
         "10\nZ",
@@ -560,7 +553,8 @@ const categoryDetails = {
   }
 ]
 },
-3: {
+3: 
+{
     intro:
       "din cauciuc Perbunan (NBR), etilenă-propilenă (EPDM), Viton (FPM), silicon, neopren etc.",
 

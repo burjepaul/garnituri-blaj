@@ -1,7 +1,7 @@
 import { Link} from "react-router-dom";
 import { useState } from "react";
 
-import "./Category.css";
+import "./CureleDintate.css";
 
 const tables = [{
     columns: [
@@ -180,7 +180,7 @@ const images = [
 
 ]
 
-function Category2() {
+function CureleDintate() {
 
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -472,4 +472,4 @@ function Category2() {
   );
 }
 
-export default Category2;
+export default CureleDintate;
