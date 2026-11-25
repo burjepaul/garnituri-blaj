@@ -395,7 +395,7 @@ export default function CureleTrapezoidale() {
           <section className="product-section">
 
             <div className="section-heading">
-              <h2>VERIFICA STOC</h2>
+              <h2>VERIFICĂ STOCUL</h2>
             </div>
 
             <div className="clasice__grid">
@@ -412,9 +412,15 @@ export default function CureleTrapezoidale() {
                       className="clasice__image"
                     />
                   </div>
+
+                  <div className="clasice__card-content">
+                    <h3>{categorie.denumire || categorie.link}</h3>
+                    <span className="clasice__card-arrow">→</span>
+                  </div>
                 </Link>
               ))}
             </div>
+
           </section>
 
 

@@ -1,19 +1,18 @@
 
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import clasiceData from "../../../data/subCategorieCureleTrapezoidale";
+import clasiceData from "../../../data/subCategorieIneleO";
 import "./SubCategorieIneleO.css";
+import TabelMateriale from "./TabelProduse";
 
 const GOOGLE_SHEETS_API_URL =
   "https://script.google.com/macros/s/AKfycbzrCX923pBXIrSOctCbWf9FnBDRcX2sSBTW4VFk7h4RzQTyTzQBYKs0xKaQLvwVYJ6t/exec";
 
 const grupa = {
   "IneleO": "IneleO",
-  "13x8": "13x8",
-  "17x11": "17x11",
-  "22x14": "22x14",
-  "32x20": "32x20",
-  "speciale": "Speciale"
+  "IneleOViton": "IneleOViton",
+  "SnurViton": "SnurViton",
+  "SnurNBR": "SnurNBR",
 };
 
 export default function SubCategorieIneleO() {
@@ -30,7 +29,9 @@ export default function SubCategorieIneleO() {
   useEffect(() => {
     async function incarcaProduse() {
       try {
-        const response = await fetch(GOOGLE_SHEETS_API_URL);
+        const response = await fetch(
+          `${GOOGLE_SHEETS_API_URL}?sheet=IneleO`
+        );
 
         if (!response.ok) {
           throw new Error("Nu s-au putut încărca datele.");
@@ -62,14 +63,8 @@ export default function SubCategorieIneleO() {
     return <h2>Categorie negăsită</h2>;
   }
 
-  const info = date.generalInfo;
-
   return (
     <div className="categorie-page">
-
-      <h1 className="categorie-title">
-        INFORMAȚII GENERALE
-      </h1>
 
       <section className="categorie-general">
 
@@ -77,34 +72,10 @@ export default function SubCategorieIneleO() {
 
           <div className="categorie-heading">
             <span>01</span>
-            <h2>INFORMAȚII GENERALE</h2>
+            <h2>INFORMAȚII GENERALE - {grupaSelectata}</h2>
           </div>
 
-          <div className="categorie-info-row">
-            <strong>Material</strong>
-            <span>{info.material || "-"}</span>
-          </div>
-
-          <div className="categorie-info-row">
-            <strong>Temperatura de regim</strong>
-            <span>{info.temperatura || "-"}</span>
-          </div>
-
-          <div className="categorie-info-row">
-            <strong>Diametrul critic al roții</strong>
-            <span>{info.diametruCritic || "-"}</span>
-          </div>
-
-          <div className="categorie-info-row">
-            <strong>Conversie lungimi (perimetru)</strong>
-            <span className="categorie-conversion">
-              La = {info.conversieLungimi?.La || "-"}
-              {"\n"}
-              La = {info.conversieLungimi?.LaLp || "-"}
-              {"\n"}
-              Lp = {info.conversieLungimi?.Lp || "-"}
-            </span>
-          </div>
+          <TabelMateriale/>
 
         </div>
 
@@ -120,7 +91,7 @@ export default function SubCategorieIneleO() {
 
         <div className="categorie-heading">
           <span>02</span>
-          <h2>PRODUSE DISPONIBILE - {grupaSelectata} MM</h2>
+          <h2>PRODUSE DISPONIBILE - {grupaSelectata}</h2>
         </div>
 
         {loading && (

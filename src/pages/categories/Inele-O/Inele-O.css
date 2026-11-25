@@ -337,20 +337,85 @@
 ======================================== */
 
 .product-section {
-  max-width: 1280px;
+  width: 100%;
+  margin: 45px 0;
+}
 
-  margin: 25px auto 0;
+.clasice__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 25px;
+}
 
-  padding: 50px 55px;
-
-  box-sizing: border-box;
-
-  background: #ffffff;
-
+.clasice__card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #172024;
+  background: #fff;
   border: 1px solid #e1e6e4;
-  border-radius: 10px;
+  border-radius: 7px;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
 
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.025);
+.clasice__card:hover {
+  border-color: #175b35;
+  box-shadow: 0 5px 16px rgba(23, 91, 53, 0.10);
+  transform: translateY(-3px);
+}
+
+.clasice__image-wrap {
+  width: 100%;
+  height: 190px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f8f7;
+  border-bottom: 1px solid #e8ece9;
+}
+
+.clasice__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.25s ease;
+}
+
+.clasice__card:hover .clasice__image {
+  transform: scale(1.04);
+}
+
+.clasice__card-content {
+  min-height: 57px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.clasice__card-content h3 {
+  margin: 0;
+  color: #263b30;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.clasice__card-arrow {
+  color: #175b35;
+  font-size: 21px;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.clasice__card:hover .clasice__card-arrow {
+  transform: translateX(4px);
 }
 
 
@@ -1339,6 +1404,11 @@
   .carousel-next {
     right: 12px;
   }
+
+    .clasice__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
 }
 
 
@@ -1372,6 +1442,29 @@
 
   .carousel-dots {
     margin-top: 14px;
+  }
+
+    .clasice__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .clasice__image-wrap {
+    height: 145px;
+    padding: 12px;
+  }
+
+  .clasice__card-content {
+    min-height: 48px;
+    padding: 10px;
+  }
+
+  .clasice__card-content h3 {
+    font-size: 12px;
+  }
+
+  .clasice__card-arrow {
+    font-size: 17px;
   }
 }
 

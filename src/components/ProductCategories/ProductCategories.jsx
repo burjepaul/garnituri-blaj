@@ -17,7 +17,6 @@ function ProductCategories() {
             image={product.image}
             title={product.title}
             description={product.description}
-            discount={product.discount}
             to={`/produse/${product.id}`}
           />
         ))}

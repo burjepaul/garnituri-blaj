@@ -2,21 +2,17 @@ import "./Inele-O.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import src1 from '../../../assets/IneleO/curea-01.jpg'
-import src2 from '../../../assets/IneleO/curea-02.jpg'
-import src3 from '../../../assets/IneleO/curea-03.jpg'
-import src4 from '../../../assets/IneleO/curea-04.jpg'
-import src5 from '../../../assets/IneleO/curea-05.jpg'
-import src6 from '../../../assets/IneleO/curea-06.jpg'
+import src1 from '../../../assets/IneleO/IneleO.png'
+import src2 from '../../../assets/IneleO/IneleOViton.jpg'
+import src3 from '../../../assets/IneleO/SnurViton.png'
+import src4 from '../../../assets/IneleO/SnurNBR.webp'
 
 
  const categorii = [
   {imagine: src1, link: "IneleO" },
-  {imagine: src2, link: "13x8"},
-  {imagine: src3, link: "17x11"},
-  {imagine: src4, link: "22x14"},
-  {imagine: src5, link: "32x20"},
-  {imagine: src6, link: "speciale"},
+  {imagine: src2, link: "IneleOViton"},
+  {imagine: src3, link: "SnurViton"},
+  {imagine: src4, link: "SnurNBR"},
 ];
 
 const details = {
@@ -102,7 +98,6 @@ const product = {
     title: "INELE-O, ȘNUR ROTUND ȘI PROFILE ",
     description: "din cauciuc Perbunan (NBR), etilenă-propilenă (EPDM), Viton (FPM), silicon, neopren etc.",
     image: '/images/products/inele.jpg',
-    discount: false,
 }
 
 export function IneleO() {
@@ -174,30 +169,36 @@ export function IneleO() {
           )}
 
           {/* GAMA DE PRODUSE */}
-          <section className="product-section">
+<section className="product-section">
 
-            <div className="section-heading">
-              <h2>VERIFICA STOC</h2>
-            </div>
+  <div className="section-heading">
+    <h2>VERIFICĂ STOCUL</h2>
+  </div>
 
-            <div className="clasice__grid">
-              {categorii.map((categorie) => (
-                <Link
-                  to={`/inele/${categorie.link}`}
-                  className="clasice__card"
-                  key={categorie.denumire}
-                >
-                  <div className="clasice__image-wrap">
-                    <img
-                      src={categorie.imagine}
-                      alt={`Curea trapezoidală ${categorie.denumire}`}
-                      className="clasice__image"
-                    />
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </section>
+  <div className="clasice__grid">
+    {categorii.map((categorie) => (
+      <Link
+        to={`/inele/${categorie.link}`}
+        className="clasice__card"
+        key={categorie.denumire}
+      >
+        <div className="clasice__image-wrap">
+          <img
+            src={categorie.imagine}
+            alt={`Inele ${categorie.denumire}`}
+            className="clasice__image"
+          />
+        </div>
+
+        <div className="clasice__card-content">
+          <h3>{categorie.denumire || categorie.link}</h3>
+          <span className="clasice__card-arrow">→</span>
+        </div>
+      </Link>
+    ))}
+  </div>
+
+</section>
 
 
           {/* APLICAȚII */}

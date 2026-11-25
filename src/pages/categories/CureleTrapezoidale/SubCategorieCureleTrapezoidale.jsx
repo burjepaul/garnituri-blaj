@@ -67,10 +67,6 @@ export default function SubCategorieCureleTrapezoidale() {
   return (
     <div className="categorie-page">
 
-      <h1 className="categorie-title">
-        INFORMAȚII GENERALE
-      </h1>
-
       <section className="categorie-general">
 
         <div className="categorie-details">

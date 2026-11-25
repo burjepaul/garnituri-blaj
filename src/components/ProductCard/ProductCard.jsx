@@ -5,7 +5,6 @@ function ProductCard({
   image,
   title,
   description,
-  discount = false,
   to,
 }) {
   return (
@@ -17,13 +16,6 @@ function ProductCard({
           alt={title}
           className="product-image"
         />
-
-        {discount && (
-          <div className="discount-badge">
-            <span>%</span>
-            <small>OFERTĂ</small>
-          </div>
-        )}
       </div>
 
       <div className="product-card-content">
